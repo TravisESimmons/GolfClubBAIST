@@ -1,0 +1,49 @@
+﻿@model List<GolfBAIST.Models.StandingTeeTimeRequest>
+
+<div class="table-responsive">
+    <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>Member ID</th>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Date Range</th>
+                <th>Players</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var r in Model)
+            {
+                <tr>
+                    <td>@r.MemberID</td>
+                    <td>@r.RequestedDayOfWeek</td>
+                    <td>@r.RequestedStartTime - @r.RequestedEndTime</td>
+                    <td>@r.StartDate.ToShortDateString() - @r.EndDate.ToShortDateString()</td>
+                    <td>
+                        @if (r.AdditionalPlayer1ID.HasValue)
+                        {
+                            <div>Player 1: @r.AdditionalPlayer1ID</div>
+                        }
+                        @if (r.AdditionalPlayer2ID.HasValue)
+                        {
+                            <div>Player 2: @r.AdditionalPlayer2ID</div>
+                        }
+                        @if (r.AdditionalPlayer3ID.HasValue)
+                        {
+                            <div>Player 3: @r.AdditionalPlayer3ID</div>
+                        }
+                    </td>
+                    <td>
+                        <form method="post" asp-page-handler="ApproveStanding" asp-route-id="@r.RequestID" class="d-inline">
+                            <button class="btn btn-sm btn-success">✓</button>
+                        </form>
+                        <form method="post" asp-page-handler="DenyStanding" asp-route-id="@r.RequestID" class="d-inline">
+                            <button class="btn btn-sm btn-danger">✕</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

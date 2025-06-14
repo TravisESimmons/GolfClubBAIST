@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "GolfBAIST.Controllers.TeeTimesController",
+    "Method": "GetAvailableTimeSlots",
+    "RelativePath": "api/teetimes/available",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "date",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

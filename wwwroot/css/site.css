@@ -1,0 +1,1816 @@
+﻿/* === Global Reset === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* === Modern Typography === */
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+    font-weight: 700;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+p, .lead {
+    color: #495057;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+/* === Subtle Green Accents === */
+.text-success {
+    color: #28a745 !important;
+    font-weight: 600;
+}
+
+.border-success {
+    border-color: #28a745 !important;
+}
+
+.bg-light {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%) !important;
+}
+
+/* === Enhanced Tables === */
+.table {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(40, 167, 69, 0.1);
+}
+
+.table thead th {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+    padding: 15px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.table tbody tr {
+    transition: all 0.3s ease;
+}
+
+.table tbody tr:hover {
+    background-color: rgba(40, 167, 69, 0.05);
+    transform: translateY(-1px);
+}
+
+.table td {
+    padding: 12px 15px;
+    border-color: rgba(40, 167, 69, 0.1);
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font stack */
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); /* Subtle gradient background */
+    color: #2c3e50; /* Darker, richer text color */
+    line-height: 1.6;
+    padding-bottom: 250px; /* Dramatically increased from 180px to prevent footer overlap */
+    font-weight: 400;
+}
+
+/* === Layout Containers === */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tab-content {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    border: none !important;
+    position: relative;
+    margin-bottom: 100px; /* Added large bottom margin to prevent footer overlap */
+    overflow: visible !important;
+    height: auto !important;
+    max-height: none !important;
+}
+
+.tab-content::before {
+    display: none !important;
+    content: none !important;
+}
+
+/* === Navbar === */
+nav {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    color: white;
+    padding: 25px 0; /* Increased from 20px to accommodate much larger logo */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    border-bottom: 3px solid #28a745;
+}
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        padding: 0;
+    }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 18px;
+                font-weight: 500;
+                padding: 8px 16px;
+                border-radius: 25px;
+                transition: all 0.3s ease;
+                text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+            }
+
+                nav ul li a:hover {
+                    background: rgba(255, 255, 255, 0.1);
+                    color: #28a745;
+                    text-decoration: none;
+                    transform: translateY(-1px);
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                }
+
+/* === Jumbotron Enhanced Styling === */
+.jumbotron {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 20px;
+    padding: 60px 40px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(40, 167, 69, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.jumbotron::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #28a745, #20c997, #28a745);
+}
+
+.jumbotron h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron .lead {
+    font-size: 1.4rem;
+    color: #6c757d;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.jumbotron .btn {
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    margin: 0 10px;
+    border-radius: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.jumbotron .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.jumbotron .btn-primary {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border: none;
+}
+
+.jumbotron .btn-success {
+    background: linear-gradient(135deg, #28a745, #1e7e34);
+    border: none;
+}
+
+/* === Forms === */
+form {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    margin-top: 20px;
+    border: 1px solid rgba(40, 167, 69, 0.1);
+    position: relative;
+}
+
+form::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #28a745, #20c997, #28a745);
+    border-radius: 15px 15px 0 0;
+}
+
+    form .form-group {
+        margin-bottom: 1.5rem;
+    }
+
+    form label {
+        font-size: 1.1em;
+        margin-bottom: 8px;
+        display: block;
+        color: #2c3e50;
+        font-weight: 600;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+
+    form input,
+    form select {
+        width: 100%;
+        padding: 12px 15px;
+        border: 2px solid #e9ecef;
+        border-radius: 8px;
+        font-size: 1rem;
+        transition: all 0.3s ease;
+        background: #ffffff;
+    }
+
+    form input:focus,
+    form select:focus {
+        border-color: #28a745;
+        box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.1);
+        outline: none;
+        transform: translateY(-1px);
+    }
+
+    form button {
+        background: linear-gradient(135deg, #28a745, #20c997);
+        color: white;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 1.1em;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+        form button:hover {
+            background: linear-gradient(135deg, #218838, #17a2b8);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(40, 167, 69, 0.4);
+        }
+
+/* === Checkbox / Agreement Fix === */
+/* === Checkbox Fix (Inline & Properly Aligned) === */
+.form-check {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 12px;
+    padding: 0;
+    line-height: 1.5;
+    width: 100%;
+}
+
+.form-check-input {
+    margin-top: 0.25rem;
+    width: 1.1em;
+    height: 1.1em;
+    flex-shrink: 0;
+    accent-color: #007bff;
+    appearance: auto;
+}
+
+.form-check-label {
+    display: inline-block;
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+    flex-grow: 1;
+}
+
+
+
+/* === Table Buttons Fix === */
+.table td form {
+    background: none !important;
+    padding: 0 !important;
+    margin: 4px 0 !important; /* Added vertical margin */
+    box-shadow: none !important;
+    border: none !important;
+}
+
+    .table td .btn,
+    .table td form button {
+        font-size: 0.875rem;
+        padding: 8px 16px; /* Increased padding */
+        border-radius: 8px; /* More rounded */
+        line-height: 1.2;
+        border: 2px solid #ffffff !important; /* Added white border */
+        margin: 4px 2px !important; /* Added margins for spacing */
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        min-height: 40px; /* Consistent height */
+        transition: all 0.3s ease;
+    }
+
+.table td .btn-sm {
+    height: 40px; /* Increased from 32px */
+    min-width: 80px; /* Added min-width */
+}
+
+/* === Manual Button Colors + Hover === */
+.btn-success {
+    background: linear-gradient(135deg, #198754, #146c43) !important; /* Darker green for better contrast */
+    color: #ffffff !important;
+    border: 2px solid #ffffff !important; /* White border for definition */
+    border-radius: 8px !important;
+    font-weight: 700 !important; /* Bolder text */
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 12px rgba(25, 135, 84, 0.4) !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important; /* Text shadow for readability */
+}
+
+    .btn-success:hover {
+        background: linear-gradient(135deg, #146c43, #0f5132) !important;
+        transform: translateY(-2px) !important;
+        box-shadow: 0 6px 20px rgba(25, 135, 84, 0.5) !important;
+        border-color: #ffffff !important;
+        color: #ffffff !important;
+    }
+
+.btn-danger {
+    background: linear-gradient(135deg, #dc3545, #b02a37) !important;
+    color: #fff !important;
+    border: 2px solid #ffffff !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 12px rgba(220, 53, 69, 0.4) !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+}
+
+    .btn-danger:hover {
+        background: linear-gradient(135deg, #b02a37, #8b1e2b) !important;
+        transform: translateY(-2px) !important;
+        box-shadow: 0 6px 20px rgba(220, 53, 69, 0.5) !important;
+        border-color: #ffffff !important;
+        color: #ffffff !important;
+    }
+
+.btn-info {
+    background: linear-gradient(135deg, #0dcaf0, #0aa2c0) !important;
+    color: #000000 !important; /* Dark text for better contrast on light blue */
+    border: 2px solid #ffffff !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 12px rgba(13, 202, 240, 0.4) !important;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.5) !important;
+}
+
+    .btn-info:hover {
+        background: linear-gradient(135deg, #0aa2c0, #087990) !important;
+        transform: translateY(-2px) !important;
+        box-shadow: 0 6px 20px rgba(13, 202, 240, 0.5) !important;
+        border-color: #ffffff !important;
+        color: #ffffff !important;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+    }
+
+.btn-primary {
+    background: linear-gradient(135deg, #0d6efd, #084298) !important;
+    color: #fff !important;
+    border: 2px solid #ffffff !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 12px rgba(13, 110, 253, 0.4) !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+}
+
+    .btn-primary:hover {
+        background: linear-gradient(135deg, #084298, #052c65) !important;
+        transform: translateY(-2px) !important;
+        box-shadow: 0 6px 20px rgba(13, 110, 253, 0.5) !important;
+        border-color: #ffffff !important;
+        color: #ffffff !important;
+    }
+
+/* === Pagination Button Fixes === */
+.pagination {
+    margin: 20px 0 !important;
+    justify-content: center;
+}
+
+.pagination .page-link {
+    background: #ffffff !important;
+    color: #2c3e50 !important;
+    border: 3px solid #2c3e50 !important;
+    border-radius: 10px !important;
+    font-weight: 700 !important;
+    font-size: 1rem !important;
+    padding: 12px 20px !important;
+    margin: 0 8px !important; /* Increased spacing between buttons */
+    text-shadow: none !important;
+    transition: all 0.3s ease !important;
+    min-width: 100px !important; /* Minimum width for better spacing */
+    text-align: center !important;
+}
+
+.pagination .page-link:hover {
+    background: #2c3e50 !important;
+    color: #ffffff !important;
+    border-color: #2c3e50 !important;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 6px 20px rgba(44, 62, 80, 0.4) !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+}
+
+.pagination .page-item.active .page-link {
+    background: #28a745 !important;
+    color: #ffffff !important;
+    border-color: #28a745 !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4) !important;
+    font-weight: 700 !important;
+}
+
+.pagination .page-item.disabled .page-link {
+    background: #f8f9fa !important;
+    color: #6c757d !important;
+    border-color: #dee2e6 !important;
+    opacity: 0.5 !important;
+}
+
+/* === Specific Previous/Next Button Styling === */
+.pagination .page-item:first-child .page-link,
+.pagination .page-item:last-child .page-link {
+    background: #0d6efd !important;
+    color: #ffffff !important;
+    border: 3px solid #0d6efd !important;
+    font-weight: 700 !important;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
+}
+
+.pagination .page-item:first-child .page-link:hover,
+.pagination .page-item:last-child .page-link:hover {
+    background: #084298 !important;
+    color: #ffffff !important;
+    border-color: #084298 !important;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6) !important;
+}
+
+/* === ENHANCED TEE TIME CARD DESIGN === */
+
+/* Icon styling for better visual indicators */
+.info-icon {
+    font-size: 1.2rem !important;
+    margin-right: 8px !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+/* IMPROVED GOLF-THEMED ICONS - BIGGER AND BETTER */
+.employee-icon::before {
+    content: "👤 ";
+    font-size: 1.5rem;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.cart-icon::before {
+    content: "� ";
+    font-size: 1.5rem;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.members-icon::before {
+    content: "⛳🏌️ ";
+    font-size: 1.5rem;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.contact-icon::before {
+    content: "📞 ";
+    font-size: 1.5rem;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.employee-icon::before {
+    content: "👤 ";
+    font-size: 1.3rem;
+    margin-right: 8px;
+}
+
+.cart-icon::before {
+    content: "� ";
+    font-size: 1.3rem;
+    margin-right: 8px;
+}
+
+.members-icon::before {
+    content: "⛳ ";
+    font-size: 1.3rem;
+    margin-right: 8px;
+}
+
+.contact-icon::before {
+    content: "📞 ";
+    font-size: 1.1rem;
+    margin-right: 6px;
+}
+
+/* Card container with better spacing */
+.teetime-cards-container {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+    width: 100% !important;
+    max-width: 900px !important;
+    margin: 0 auto !important;
+    padding: 20px 10px 120px 10px !important; /* Dramatically increased bottom padding */
+}
+
+/* Modern card design */
+.teetime-card {
+    background: #ffffff !important;
+    border: 2px solid #e8f5e8 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.teetime-card:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Enhanced header with bigger, clearer date and time */
+.teetime-card .card-header {
+    background: linear-gradient(135deg, #2c5530, #4a7c59) !important;
+    color: white !important;
+    padding: 15px 20px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+/* Big, prominent date badge */
+.date-badge {
+    background: #ffffff !important;
+    color: #2c5530 !important;
+    padding: 8px 16px !important;
+    border-radius: 20px !important;
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.5px !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Large, readable time range */
+.time-range {
+    font-size: 1.3rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Enhanced card body with better typography */
+.teetime-card .card-body {
+    padding: 20px !important;
+    background: #fafbfa !important;
+}
+
+/* Better organized rows */
+.card-row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 20px !important;
+    margin-bottom: 12px !important;
+    align-items: center !important;
+}
+
+/* Much larger, more readable info items */
+.info-item {
+    flex: 1 !important;
+    min-width: 140px !important;
+    font-size: 1rem !important;
+    color: #555 !important;
+    padding: 8px 12px !important;
+    background: #ffffff !important;
+    border-radius: 6px !important;
+    border: 1px solid #e9ecef !important;
+}
+
+.info-item strong {
+    color: #2c5530 !important;
+    font-weight: 700 !important;
+    font-size: 1.1rem !important;
+    display: block !important;
+    margin-bottom: 3px !important;
+}
+
+/* Enhanced card actions with consistent buttons */
+.teetime-card .card-actions {
+    padding: 15px 20px !important;
+    background: #ffffff !important;
+    border-top: none !important;
+    display: flex !important;
+    gap: 10px !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+}
+
+/* FIXED: All buttons now identical sizing - INCLUDING EDIT BUTTON */
+.teetime-card .btn,
+.teetime-card .btn-sm,
+.teetime-card .btn-info,
+.teetime-card .btn-danger,
+.teetime-card .btn-success,
+.teetime-card .btn-warning,
+.teetime-card .btn-secondary,
+.teetime-card form .btn,
+.teetime-card form .btn-sm,
+.teetime-card form .btn-success,
+.teetime-card form .btn-warning,
+.teetime-card form button,
+.teetime-card form button[type="submit"] {
+    font-size: 0.9rem !important;
+    padding: 8px 16px !important;
+    border-radius: 6px !important;
+    font-weight: 600 !important;
+    line-height: 1.2 !important;
+    height: 36px !important;
+    min-height: 36px !important;
+    max-height: 36px !important;
+    border: 2px solid transparent !important;
+    margin: 0 !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    transition: all 0.2s ease !important;
+}
+
+/* Button hover effects */
+.teetime-card .btn:hover {
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* FIXED: Clean pagination without green lines */
+.d-flex.justify-content-between.align-items-center {
+    background: #ffffff !important;
+    padding: 20px 30px !important;
+    border-radius: 12px !important;
+    margin: 30px auto !important;
+    max-width: 900px !important;
+    border: 2px solid #e8f5e8 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+    position: relative !important;
+}
+
+/* FIXED: Pagination buttons without green lines */
+.d-flex.justify-content-between.align-items-center .btn,
+.d-flex.justify-content-between.align-items-center .btn-outline-primary,
+.d-flex.justify-content-between.align-items-center .btn-sm {
+    font-size: 1rem !important;
+    padding: 10px 20px !important;
+    height: 44px !important;
+    min-height: 44px !important;
+    max-height: 44px !important;
+    line-height: 1.2 !important;
+    margin: 0 8px !important;
+    border-radius: 8px !important;
+    min-width: 100px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    border: 2px solid #2c5530 !important;
+    background: #ffffff !important;
+    color: #2c5530 !important;
+    transition: all 0.2s ease !important;
+}
+
+.d-flex.justify-content-between.align-items-center .btn:hover {
+    background: #2c5530 !important;
+    color: #ffffff !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 15px rgba(44, 85, 48, 0.3) !important;
+}
+
+/* Page info styling */
+.d-flex.justify-content-between.align-items-center span {
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+    color: #2c5530 !important;
+}
+
+/* Remove ALL green line artifacts */
+.nav-tabs,
+.tab-content,
+.nav-tabs .nav-link,
+.nav-link.active,
+.nav-tabs .nav-link.active {
+    border: none !important;
+    border-bottom: none !important;
+    border-top: none !important;
+    background: transparent !important;
+}
+
+.tab-content {
+    border: none !important;
+    margin-top: 15px !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    height: auto !important;
+    max-height: none !important;
+}
+
+/* Remove scrollbars from all tab-related elements */
+.tab-content,
+.tab-pane,
+.container,
+.container-fluid {
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+    overflow: visible !important;
+    height: auto !important;
+    max-height: none !important;
+}
+
+/* === FORCE REMOVE GREEN LINES EVERYWHERE === */
+/* Remove green lines from ANY element that might have them */
+* {
+    border-color: #dee2e6 !important;
+}
+
+/* Override Bootstrap's border-success class */
+.border-success,
+.border-success *,
+*[class*="border-success"] {
+    border-color: #dee2e6 !important;
+}
+
+/* Override any pagination border styling */
+.pagination,
+.pagination *,
+.page-link,
+.page-item {
+    border-color: #dee2e6 !important;
+}
+
+/* Force override for MyTeeTimes specific elements */
+.mt-3 *,
+.d-flex.justify-content-between *,
+.d-flex.justify-content-between.align-items-center * {
+    border-color: #dee2e6 !important;
+}
+
+/* Override tab styling completely */
+.nav,
+.nav *,
+.nav-tabs,
+.nav-tabs *,
+.tab-content,
+.tab-content * {
+    border: none !important;
+    border-color: transparent !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+/* Remove old table styling completely */
+.table-responsive {
+    overflow: visible !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+    border: none !important;
+}
+
+/* FORCE STANDING TAB TO COMPLETELY HIDE ALL TABLES */
+#standing table,
+#standing .table,
+#standing .table-responsive,
+#standing thead,
+#standing tbody,
+#standing tr,
+#standing th,
+#standing td,
+div[id="standing"] table,
+div[id="standing"] .table,
+div[id="standing"] .table-responsive,
+div[id="standing"] thead,
+div[id="standing"] tbody,
+div[id="standing"] tr,
+div[id="standing"] th,
+div[id="standing"] td {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+}
+
+/* ABSOLUTELY FORCE STANDING TAB TO NEVER SHOW WIDE TABLE */
+#standing .table-responsive {
+    max-width: 0 !important;
+    width: 0 !important;
+    overflow: hidden !important;
+    display: none !important;
+}
+
+/* FORCE STANDING TAB TO ONLY SHOW CARDS - WITH MAXIMUM OVERRIDE */
+#standing .teetime-cards-container,
+div[id="standing"] .teetime-cards-container,
+.tab-pane#standing .teetime-cards-container {
+    display: flex !important;
+    visibility: visible !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+    width: 100% !important;
+    max-width: 900px !important;
+    margin: 0 auto !important;
+    padding: 20px 10px 120px 10px !important; /* Dramatically increased bottom padding */
+    height: auto !important;
+    overflow: visible !important;
+    position: relative !important;
+    z-index: 1 !important; /* Reduced from 999 to stay below footer */
+}
+
+/* FORCE STANDING TAB CARDS TO BE VISIBLE */
+#standing .teetime-card,
+div[id="standing"] .teetime-card,
+.tab-pane#standing .teetime-card {
+    display: block !important;
+    visibility: visible !important;
+    background: #ffffff !important;
+    border: 2px solid #e8f5e8 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+    overflow: hidden !important;
+    margin: 0 0 20px 0 !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    position: relative !important;
+    z-index: 1 !important; /* Reduced from 1000 to stay below footer */
+}
+
+/* Ensure Standing tab cards behave exactly like Regular tab */
+#standing .teetime-cards-container,
+#regular .teetime-cards-container {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+    width: 100% !important;
+    max-width: 900px !important;
+    margin: 0 auto !important;
+    padding: 20px 10px !important;
+}
+
+/* Ensure Standing tab cards are visible and properly styled */
+#standing .teetime-card,
+#regular .teetime-card {
+    display: block !important;
+    visibility: visible !important;
+    background: #ffffff !important;
+    border: 2px solid #e8f5e8 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+    overflow: hidden !important;
+    margin: 0 !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+/* === SPECIFIC MYTEETIMES PAGINATION FIXES === */
+/* Target the specific pagination container in MyTeeTimes */
+.mt-3.d-flex.justify-content-between.align-items-center,
+.d-flex.justify-content-between.align-items-center.mt-3 {
+    background: #ffffff !important;
+    padding: 20px 30px !important;
+    border-radius: 12px !important;
+    margin: 30px auto !important;
+    max-width: 900px !important;
+    border: 2px solid #e8f5e8 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+    position: relative !important;
+    /* Remove ALL green styling */
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left: 2px solid #e8f5e8 !important;
+    border-right: 2px solid #e8f5e8 !important;
+}
+
+/* Target MyTeeTimes pagination buttons specifically */
+.mt-3 .btn-outline-primary,
+.mt-3.d-flex .btn-outline-primary,
+.d-flex.mt-3 .btn-outline-primary,
+.d-flex.justify-content-between .btn-outline-primary.btn-sm {
+    font-size: 1rem !important;
+    padding: 12px 24px !important;
+    height: 48px !important;
+    min-height: 48px !important;
+    max-height: 48px !important;
+    line-height: 1.2 !important;
+    margin: 0 10px !important;
+    border-radius: 8px !important;
+    min-width: 110px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.8px !important;
+    /* Custom styling without green */
+    border: 3px solid #2c5530 !important;
+    background: #ffffff !important;
+    color: #2c5530 !important;
+    transition: all 0.3s ease !important;
+    text-shadow: none !important;
+    box-shadow: 0 3px 8px rgba(44, 85, 48, 0.2) !important;
+}
+
+.mt-3 .btn-outline-primary:hover,
+.d-flex.justify-content-between .btn-outline-primary.btn-sm:hover {
+    background: #2c5530 !important;
+    color: #ffffff !important;
+    border-color: #2c5530 !important;
+    transform: translateY(-3px) !important;
+    box-shadow: 0 8px 20px rgba(44, 85, 48, 0.4) !important;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !important;
+}
+
+.mt-3 .btn-outline-primary:disabled,
+.d-flex.justify-content-between .btn-outline-primary.btn-sm:disabled {
+    background: #f8f9fa !important;
+    color: #6c757d !important;
+    border: 3px solid #dee2e6 !important;
+    opacity: 0.6 !important;
+    cursor: not-allowed !important;
+    transform: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+/* Page info styling in MyTeeTimes */
+.mt-3.d-flex span,
+.d-flex.justify-content-between.mt-3 span {
+    font-size: 1.2rem !important;
+    font-weight: 700 !important;
+    color: #2c5530 !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* === ENHANCED TEE TIME CARD DESIGN === */
+/* Fix container width to prevent squished table */
+.tab-content {
+    width: 100% !important;
+    max-width: none !important;
+    padding: 0 20px !important;
+}
+
+.table-responsive {
+    background: #ffffff !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
+    margin-bottom: 30px !important;
+    overflow-x: auto !important;
+    min-height: 500px !important;
+}
+
+/* Ensure table has proper width */
+.table-responsive .table {
+    min-width: 1400px !important;
+    width: 100% !important;
+    margin-bottom: 20px !important;
+}
+
+/* Optimize column widths */
+.table-responsive .table th,
+.table-responsive .table td {
+    font-size: 0.85rem !important;
+    padding: 10px 6px !important;
+    white-space: nowrap !important;
+}
+
+/* Make actions column wider and allow wrapping */
+.table-responsive .table th:last-child,
+.table-responsive .table td:last-child {
+    min-width: 200px !important;
+    width: 200px !important;
+    white-space: normal !important;
+}
+
+/* Fix pagination container to not be squished */
+.d-flex.justify-content-between.align-items-center {
+    background: #f8f9fa !important;
+    padding: 20px !important;
+    border-radius: 8px !important;
+    margin: 20px 0 !important;
+    border-top: 3px solid #28a745 !important;
+}
+
+.d-flex.justify-content-between.align-items-center .btn {
+    margin: 0 10px !important;
+    min-width: 90px !important;
+}
+
+/* === MyTeeTimes Page Container and Table Fixes === */
+.container-fluid.px-4 {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    max-width: 100% !important;
+}
+
+.mytee-table-container {
+    min-height: 600px;
+    overflow-x: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.mytee-table-container .table {
+    min-width: 1400px !important;
+    width: 100% !important;
+    margin-bottom: 0;
+}
+
+.mytee-table-container .table th {
+    white-space: nowrap;
+    font-size: 0.9rem;
+    padding: 12px 8px !important;
+}
+
+.mytee-table-container .table td {
+    white-space: nowrap;
+    font-size: 0.85rem;
+    padding: 10px 8px !important;
+    vertical-align: middle;
+}
+
+/* Make Actions column wider */
+.mytee-table-container .table th:last-child,
+.mytee-table-container .table td:last-child {
+    min-width: 180px !important;
+    white-space: normal;
+}
+
+/* Fix pagination spacing for MyTeeTimes */
+.mytee-pagination-container {
+    margin-top: 30px !important;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-top: 3px solid #28a745;
+}
+
+.mytee-pagination-container .d-flex {
+    gap: 20px !important;
+}
+
+.mytee-pagination-container .btn {
+    margin: 0 8px !important;
+}
+
+/* === MyTeeTimes Pagination Button Fixes === */
+.btn.btn-outline-primary.btn-sm {
+    background: #0d6efd !important;
+    color: #ffffff !important;
+    border: 2px solid #0d6efd !important;
+    border-radius: 8px !important;
+    font-weight: 700 !important;
+    font-size: 0.9rem !important;
+    padding: 8px 16px !important;
+    margin: 0 4px !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4) !important;
+    transition: all 0.3s ease !important;
+    min-width: 80px !important;
+    text-align: center !important;
+}
+
+.btn.btn-outline-primary.btn-sm:hover {
+    background: #084298 !important;
+    color: #ffffff !important;
+    border-color: #084298 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 15px rgba(13, 110, 253, 0.4) !important;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
+}
+
+.btn.btn-outline-primary.btn-sm:disabled {
+    background: #6c757d !important;
+    color: #ffffff !important;
+    border-color: #6c757d !important;
+    opacity: 0.6 !important;
+    cursor: not-allowed !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+/* === Join/Book Button Specific Fixes === */
+.btn-success.join-button,
+.btn-success.book-button {
+    background: linear-gradient(135deg, #0d6efd, #084298) !important; /* Blue instead of green */
+    color: #ffffff !important;
+    border: 2px solid #ffffff !important;
+    font-weight: 700 !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4) !important;
+}
+
+.btn-success.join-button:hover,
+.btn-success.book-button:hover {
+    background: linear-gradient(135deg, #084298, #052c65) !important;
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+/* === Cancel Button (Tee Time) === */
+.list-group-item button.btn-success {
+    background-color: #28a745;
+    color: white;
+    padding: 6px 16px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+    .list-group-item button.btn-success:hover {
+        background-color: #218838;
+    }
+
+/* === Approve / Deny Buttons (✓ ✕) === */
+.table td button.btn-sm {
+    font-size: 1.1rem;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+/* === Enhanced Cards & Lists === */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    border: 1px solid rgba(40, 167, 69, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.card-header {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 15px 15px 0 0;
+    padding: 20px;
+    font-weight: 600;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.list-group {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.list-group-item {
+    border-color: rgba(40, 167, 69, 0.1);
+    transition: all 0.3s ease;
+    padding: 15px 20px;
+}
+
+.list-group-item:hover {
+    background-color: rgba(40, 167, 69, 0.05);
+    transform: translateX(5px);
+}
+
+.list-group-item:first-child {
+    border-top: 3px solid #28a745;
+}
+
+/* === Alert Enhancements === */
+.alert {
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    font-weight: 500;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.alert-success {
+    background: linear-gradient(135deg, rgba(40, 167, 69, 0.1) 0%, rgba(32, 201, 151, 0.05) 100%);
+    border-left: 4px solid #28a745;
+    color: #155724;
+}
+
+.alert-danger {
+    background: linear-gradient(135deg, rgba(220, 53, 69, 0.1) 0%, rgba(200, 35, 51, 0.05) 100%);
+    border-left: 4px solid #dc3545;
+    color: #721c24;
+}
+
+.alert-info {
+    background: linear-gradient(135deg, rgba(23, 162, 184, 0.1) 0%, rgba(19, 132, 150, 0.05) 100%);
+    border-left: 4px solid #17a2b8;
+    color: #0c5460;
+}
+
+/* === Badge Enhancements === */
+.badge {
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.badge-success {
+    background: linear-gradient(135deg, #28a745, #20c997);
+}
+
+.badge-danger {
+    background: linear-gradient(135deg, #dc3545, #c82333);
+}
+
+.badge-info {
+    background: linear-gradient(135deg, #17a2b8, #138496);
+}
+
+.badge-primary {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+}
+footer {
+    text-align: center;
+    padding: 25px;
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 9999; /* Dramatically increased from 100 to stay above all content */
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
+    border-top: 3px solid #28a745;
+    font-weight: 500;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* === Scroll Fix === */
+.scorecard-scroll {
+    overflow-x: auto;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fff;
+}
+
+/* === Responsive Adjustments === */
+@media (max-width: 768px) {
+    nav ul {
+        justify-content: center;
+    }
+
+    .table td button.btn-sm {
+        font-size: 1rem;
+        width: 32px;
+        height: 32px;
+    }
+}
+
+/* === Action Columns === */
+.actions-cell,
+.action-buttons-cell {
+    display: flex;
+    gap: 12px; /* Increased from 8px */
+    flex-direction: column; /* Stack buttons vertically for better spacing */
+    align-items: stretch;
+    justify-content: flex-start;
+    min-width: 140px;
+    padding: 8px; /* Added padding for breathing room */
+}
+
+    .action-buttons-cell form,
+    .actions-cell form {
+        margin: 0;
+        width: 100%;
+    }
+
+    .action-buttons-cell .btn-sm,
+    .actions-cell button.btn-sm {
+        font-size: 0.875rem;
+        padding: 8px 16px; /* Increased padding */
+        min-width: 80px; /* Increased min-width */
+        height: 40px; /* Increased height */
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        border-radius: 8px; /* More rounded */
+        border: none;
+        margin-bottom: 6px; /* Added bottom margin for vertical spacing */
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        transition: all 0.3s ease;
+    }
+
+/* === Custom Buttons === */
+.view-button {
+    font-size: 0.875rem;
+    padding: 6px 16px;
+    min-width: 72px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+    .view-button:hover {
+        background-color: #138496;
+    }
+
+.btn-mytee-view,
+.btn-mytee-edit,
+.btn-mytee-cancel {
+    font-size: 0.875rem;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    height: 36px;
+    transition: background-color 0.2s ease-in-out;
+    white-space: nowrap;
+}
+
+.btn-mytee-view {
+    background-color: #3498db;
+    color: white;
+}
+
+    .btn-mytee-view:hover {
+        background-color: #2980b9;
+    }
+
+.btn-mytee-edit {
+    background-color: #3498db;
+    color: white;
+}
+
+    .btn-mytee-edit:hover {
+        background-color: #2980b9;
+    }
+
+.btn-mytee-cancel {
+    background-color: #dc3545;
+    color: white;
+}
+
+    .btn-mytee-cancel:hover {
+        background-color: #c82333;
+    }
+
+/* === Modern Scorecard Styles === */
+.scorecard-summary .badge {
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.scorecard-scroll {
+    overflow-x: auto;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    background: #fff;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.scorecard-scroll table {
+    margin-bottom: 0;
+}
+
+.scorecard-scroll .sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.stroke-input {
+    border: 2px solid #e9ecef;
+    transition: all 0.2s ease;
+}
+
+.stroke-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.quick-score {
+    min-width: 32px;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    transition: all 0.15s ease-in-out;
+}
+
+.quick-score:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stat-box {
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    margin-bottom: 0.5rem;
+}
+
+.stat-box h5 {
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+}
+
+.card-header h5, .card-header h6 {
+    margin-bottom: 0;
+}
+
+.tee-box-select option {
+    font-size: 1rem;
+}
+
+/* Hole number highlighting */
+tr[data-hole="10"] {
+    background-color: rgba(255, 193, 7, 0.1);
+}
+
+tr[data-hole="18"] {
+    background-color: rgba(40, 167, 69, 0.1);
+}
+
+/* Mobile responsiveness for scorecard */
+@media (max-width: 768px) {
+    .scorecard-scroll {
+        font-size: 0.875rem;
+    }
+    
+    .quick-score {
+        min-width: 28px;
+        padding: 0.2rem 0.4rem;
+        font-size: 0.75rem;
+    }
+    
+    .stat-box {
+        margin-bottom: 0.75rem;
+    }
+    
+    .scorecard-summary {
+        display: none !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .btn-group .btn {
+        padding: 0.1rem 0.3rem;
+        font-size: 0.7rem;
+    }
+}
+
+/* Animation for score updates */
+.badge {
+    transition: all 0.3s ease;
+}
+
+.badge.updating {
+    transform: scale(1.1);
+}
+
+/* Print styles */
+@media print {
+    .btn, .quick-score, .card-header {
+        display: none !important;
+    }
+    
+    .scorecard-scroll {
+        overflow: visible !important;
+        border: none !important;
+    }
+    
+    .card {
+        border: 1px solid #000 !important;
+        page-break-inside: avoid;
+    }
+}
+
+/* === Logo Styling === */
+.navbar-brand img {
+    height: 120px !important; /* Dramatically increased from 80px */
+    transition: transform 0.2s ease;
+}
+
+.navbar-brand:hover img {
+    transform: scale(1.05);
+}
+
+.navbar-brand span {
+    font-weight: bold;
+    font-size: 2rem; /* Increased to match much larger logo */
+    color: #ffffff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Logo with background for white logos */
+.logo-with-bg {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.05));
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px; /* Reduced from 12px */
+    padding: 4px 6px; /* Dramatically reduced from 10px 12px */
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Landing page logo */
+.jumbotron img {
+    height: 300px !important; /* Increased from 240px */
+    filter: drop-shadow(0 6px 20px rgba(0, 0, 0, 0.15));
+    transition: transform 0.3s ease;
+}
+
+.jumbotron img:hover {
+    transform: scale(1.05); /* Increased hover effect */
+}
+
+/* Landing page logo background */
+.jumbotron .logo-with-bg {
+    background: linear-gradient(135deg, rgba(40, 167, 69, 0.15), rgba(40, 167, 69, 0.05));
+    border: 2px solid rgba(40, 167, 69, 0.4);
+    border-radius: 15px; /* Reduced from 20px */
+    padding: 15px 20px; /* Reduced from 25px 30px */
+    box-shadow: 0 8px 30px rgba(40, 167, 69, 0.2);
+}
+
+/* Responsive logo sizing */
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 80px !important; /* Increased from 60px - still much bigger on mobile */
+    }
+    
+    .navbar-brand span {
+        font-size: 1.8rem; /* Increased to match */
+    }
+    
+    nav {
+        padding: 20px 0; /* Increased for mobile too */
+    }
+    
+    .jumbotron img {
+        height: 200px !important; /* Increased from 160px */
+    }
+    
+    .jumbotron .logo-with-bg {
+        padding: 10px 15px; /* Reduced mobile padding */
+    }
+    
+    .jumbotron h1 {
+        font-size: 2.5rem; /* Responsive title size */
+    }
+    
+    .jumbotron .lead {
+        font-size: 1.2rem; /* Responsive lead text */
+    }
+    
+    .jumbotron {
+        padding: 40px 20px; /* Responsive padding */
+    }
+}
+
+/* FINAL GOLF-THEMED ICON OVERRIDES - BETTER AND BIGGER */
+.employee-icon::before {
+    content: "👥 ";
+    font-size: 1.6rem !important;
+    margin-right: 12px !important;
+    font-weight: bold !important;
+}
+
+.cart-icon::before {
+    content: "🛒⛳ ";
+    font-size: 1.6rem !important;
+    margin-right: 12px !important;
+    font-weight: bold !important;
+}
+
+.members-icon::before {
+    content: "⛳🏌️‍♂️ ";
+    font-size: 1.6rem !important;
+    margin-right: 12px !important;
+    font-weight: bold !important;
+}
+
+.contact-icon::before {
+    content: "📞 ";
+    font-size: 1.6rem !important;
+    margin-right: 12px !important;
+    font-weight: bold !important;
+}
+
+/* === Employee Portal Table Clean Styling === */
+.table-bordered td,
+.table-bordered th {
+    border: 1px solid #dee2e6 !important;
+    border-top: 1px solid #dee2e6 !important;
+}
+
+.table-bordered td:before,
+.table-bordered th:before,
+.table-bordered td:after,
+.table-bordered th:after {
+    display: none !important;
+}
+
+/* Remove any green line artifacts from employee portal buttons */
+.table td .btn-outline-success,
+.table td .btn-outline-danger {
+    border: 2px solid currentColor !important;
+    background: transparent !important;
+    position: relative !important;
+    overflow: hidden !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border: 1px solid currentColor !important;
+    box-shadow: none !important;
+}
+
+.table td .btn-outline-success:before,
+.table td .btn-outline-success:after,
+.table td .btn-outline-danger:before,
+.table td .btn-outline-danger:after {
+    display: none !important;
+    content: none !important;
+}
+
+.table td .btn-outline-success:hover {
+    background: #198754 !important;
+    color: white !important;
+    border-color: #198754 !important;
+    border: 1px solid #198754 !important;
+}
+
+.table td .btn-outline-danger:hover {
+    background: #dc3545 !important;
+    color: white !important;
+    border-color: #dc3545 !important;
+    border: 1px solid #dc3545 !important;
+}
+
+/* Clean table row styling */
+.table tbody tr {
+    border: none !important;
+}
+
+/* Additional table cleaning for employee portal */
+.table-bordered,
+.table-striped,
+.table {
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+}
+
+.table tbody tr td {
+    border-top: 1px solid #dee2e6 !important;
+    border-bottom: none !important;
+    border-left: 1px solid #dee2e6 !important;
+    border-right: 1px solid #dee2e6 !important;
+    vertical-align: middle !important;
+}
+
+/* Completely remove any green lines from table buttons */
+.table td div,
+.table td form,
+.table td div[style*="flex"] {
+    border: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    background: transparent !important;
+}
+
+.table tbody tr:before,
+.table tbody tr:after {
+    display: none !important;
+}
+
+/* === Remove Green Lines from MyTeeTimes Edit Buttons === */
+.teetime-card .btn-success,
+.teetime-card .btn-sm.btn-success,
+.card-actions .btn-success,
+.card-actions .btn-sm.btn-success {
+    border: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.teetime-card .btn-success:before,
+.teetime-card .btn-success:after,
+.card-actions .btn-success:before,
+.card-actions .btn-success:after {
+    display: none !important;
+}
+
+/* Force clean button styling for all card action buttons */
+.card-actions .btn,
+.teetime-card .btn {
+    border-top: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.card-actions .btn:focus,
+.card-actions .btn:active,
+.teetime-card .btn:focus,
+.teetime-card .btn:active {
+    box-shadow: none !important;
+    outline: none !important;
+    border-top: none !important;
+}

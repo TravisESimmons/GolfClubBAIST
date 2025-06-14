@@ -1,0 +1,60 @@
+﻿
+@model List<GolfBAIST.Models.StandingTeeTimeRequest>
+
+<link rel="stylesheet" href="~/css/standing-cancellation-table.css" />
+
+<div class="table-responsive">
+    <table class="standing-table table table-bordered">
+        <thead>
+            <tr>
+                <th>Member</th>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Date Range</th>
+                <th>Players</th>
+                <th style="min-width:120px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var r in Model)
+            {
+                <tr>
+                    <td>@r.MemberID</td>
+                    <td>@r.RequestedDayOfWeek</td>
+                    <td><span style="font-weight:500;">@r.RequestedStartTime</span> - <span style="font-weight:500;">@r.RequestedEndTime</span></td>
+                    <td>@r.StartDate.ToShortDateString() <span style="font-weight:600;">→</span> @r.EndDate.ToShortDateString()</td>
+                    <td>
+                        <div class="player-list">
+                            @if (r.AdditionalPlayer1ID.HasValue)
+                            {
+                                <span>Player 1: <b>@r.AdditionalPlayer1ID</b></span>
+                            }
+                            @if (r.AdditionalPlayer2ID.HasValue)
+                            {
+                                <span>Player 2: <b>@r.AdditionalPlayer2ID</b></span>
+                            }
+                            @if (r.AdditionalPlayer3ID.HasValue)
+                            {
+                                <span>Player 3: <b>@r.AdditionalPlayer3ID</b></span>
+                            }
+                            @if (!r.AdditionalPlayer1ID.HasValue && !r.AdditionalPlayer2ID.HasValue && !r.AdditionalPlayer3ID.HasValue)
+                            {
+                                <span class="text-muted">No additional players</span>
+                            }
+                        </div>
+                    </td>
+                    <td>
+                        <div class="action-btns">
+                            <form method="post" asp-page-handler="ApproveStandingCancel" asp-route-id="@r.RequestID">
+                                <button class="btn btn-success btn-sm" title="Approve">✓</button>
+                            </form>
+                            <form method="post" asp-page-handler="DenyStandingCancel" asp-route-id="@r.RequestID">
+                                <button class="btn btn-danger btn-sm" title="Deny">✕</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

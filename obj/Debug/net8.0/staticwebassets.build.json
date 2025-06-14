@@ -1,0 +1,743 @@
+{
+  "Version": 1,
+  "Hash": "Aa2ciq4P4jE5+gsJJHmgMjT7nCuLsgj1VKXQf9HyW0U=",
+  "Source": "GolfBAIST",
+  "BasePath": "_content/GolfBAIST",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GolfBAIST\\wwwroot",
+      "Source": "GolfBAIST",
+      "ContentRoot": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\",
+      "BasePath": "_content/GolfBAIST",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\css\\employee-portal-modern.css",
+      "SourceId": "GolfBAIST",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\",
+      "BasePath": "_content/GolfBAIST",
+      "RelativePath": "css/employee-portal-modern#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ovlzwyilfa",
+      "Integrity": "fF43d1H3XjLcar0umx0AOZQDmllTLpT3vGV7dcBx9SA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\employee-portal-modern.css"
+    },
+    {
+      "Identity": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\css\\resources\\GB-Logo.png",
+      "SourceId": "GolfBAIST",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\",
+      "BasePath": "_content/GolfBAIST",
+      "RelativePath": "css/resources/GB-Logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h8n2yzq9ay",
+      "Integrity": "IZBna+ckqrYK/jUxtQBWkivGEsc77WdIaraw2dlKPfk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\resources\\GB-Logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\css\\site.css",
+      "SourceId": "GolfBAIST",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\",
+      "BasePath": "_content/GolfBAIST",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1fluxkci75",
+      "Integrity": "E2cH32F1d2ySJgs9peDTFmZiX4PNWRkQOngJGZAs7Rk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\css\\standing-cancellation-table.css",
+      "SourceId": "GolfBAIST",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\",
+      "BasePath": "_content/GolfBAIST",
+      "RelativePath": "css/standing-cancellation-table#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5mqemndkna",
+      "Integrity": "wx8N4ojAUeHuG3Vhm2BymL3R9XmtuOn0S3Si1kR/d1Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\standing-cancellation-table.css"
+    },
+    {
+      "Identity": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\images\\gb-nav-logo.png",
+      "SourceId": "GolfBAIST",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\",
+      "BasePath": "_content/GolfBAIST",
+      "RelativePath": "images/gb-nav-logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ga9kn0h196",
+      "Integrity": "CDMLjKKlObk1OY4TKGcb9scz6k5ht9IyXH+1XScJfiA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\gb-nav-logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\images\\golfbaist-logo.png",
+      "SourceId": "GolfBAIST",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\",
+      "BasePath": "_content/GolfBAIST",
+      "RelativePath": "images/golfbaist-logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z4c9b0b9wu",
+      "Integrity": "TX9RVFi6CHC7gkXBSPCjKNvj6T06w4E8vdDMGFgZFqY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\golfbaist-logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\images\\README-Logo-Instructions.txt",
+      "SourceId": "GolfBAIST",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\",
+      "BasePath": "_content/GolfBAIST",
+      "RelativePath": "images/README-Logo-Instructions#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5j0pv1h37h",
+      "Integrity": "8cGM4g/b884ZQyVvaB0Gj6qOcnnrtoF4toAtZ66lrOY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\README-Logo-Instructions.txt"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/employee-portal-modern.css",
+      "AssetFile": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\css\\employee-portal-modern.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fF43d1H3XjLcar0umx0AOZQDmllTLpT3vGV7dcBx9SA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 06:40:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fF43d1H3XjLcar0umx0AOZQDmllTLpT3vGV7dcBx9SA="
+        }
+      ]
+    },
+    {
+      "Route": "css/employee-portal-modern.ovlzwyilfa.css",
+      "AssetFile": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\css\\employee-portal-modern.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fF43d1H3XjLcar0umx0AOZQDmllTLpT3vGV7dcBx9SA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 06:40:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ovlzwyilfa"
+        },
+        {
+          "Name": "label",
+          "Value": "css/employee-portal-modern.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fF43d1H3XjLcar0umx0AOZQDmllTLpT3vGV7dcBx9SA="
+        }
+      ]
+    },
+    {
+      "Route": "css/resources/GB-Logo.h8n2yzq9ay.png",
+      "AssetFile": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\css\\resources\\GB-Logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1428470"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IZBna+ckqrYK/jUxtQBWkivGEsc77WdIaraw2dlKPfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 06:40:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h8n2yzq9ay"
+        },
+        {
+          "Name": "label",
+          "Value": "css/resources/GB-Logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IZBna+ckqrYK/jUxtQBWkivGEsc77WdIaraw2dlKPfk="
+        }
+      ]
+    },
+    {
+      "Route": "css/resources/GB-Logo.png",
+      "AssetFile": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\css\\resources\\GB-Logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1428470"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IZBna+ckqrYK/jUxtQBWkivGEsc77WdIaraw2dlKPfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 06:40:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IZBna+ckqrYK/jUxtQBWkivGEsc77WdIaraw2dlKPfk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.1fluxkci75.css",
+      "AssetFile": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2cH32F1d2ySJgs9peDTFmZiX4PNWRkQOngJGZAs7Rk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 06:40:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1fluxkci75"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E2cH32F1d2ySJgs9peDTFmZiX4PNWRkQOngJGZAs7Rk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E2cH32F1d2ySJgs9peDTFmZiX4PNWRkQOngJGZAs7Rk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 06:40:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E2cH32F1d2ySJgs9peDTFmZiX4PNWRkQOngJGZAs7Rk="
+        }
+      ]
+    },
+    {
+      "Route": "css/standing-cancellation-table.5mqemndkna.css",
+      "AssetFile": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\css\\standing-cancellation-table.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wx8N4ojAUeHuG3Vhm2BymL3R9XmtuOn0S3Si1kR/d1Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 06:40:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5mqemndkna"
+        },
+        {
+          "Name": "label",
+          "Value": "css/standing-cancellation-table.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wx8N4ojAUeHuG3Vhm2BymL3R9XmtuOn0S3Si1kR/d1Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/standing-cancellation-table.css",
+      "AssetFile": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\css\\standing-cancellation-table.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wx8N4ojAUeHuG3Vhm2BymL3R9XmtuOn0S3Si1kR/d1Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 06:40:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wx8N4ojAUeHuG3Vhm2BymL3R9XmtuOn0S3Si1kR/d1Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/gb-nav-logo.ga9kn0h196.png",
+      "AssetFile": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\images\\gb-nav-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1049277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CDMLjKKlObk1OY4TKGcb9scz6k5ht9IyXH+1XScJfiA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 06:40:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ga9kn0h196"
+        },
+        {
+          "Name": "label",
+          "Value": "images/gb-nav-logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CDMLjKKlObk1OY4TKGcb9scz6k5ht9IyXH+1XScJfiA="
+        }
+      ]
+    },
+    {
+      "Route": "images/gb-nav-logo.png",
+      "AssetFile": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\images\\gb-nav-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1049277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CDMLjKKlObk1OY4TKGcb9scz6k5ht9IyXH+1XScJfiA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 06:40:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CDMLjKKlObk1OY4TKGcb9scz6k5ht9IyXH+1XScJfiA="
+        }
+      ]
+    },
+    {
+      "Route": "images/golfbaist-logo.png",
+      "AssetFile": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\images\\golfbaist-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1997906"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TX9RVFi6CHC7gkXBSPCjKNvj6T06w4E8vdDMGFgZFqY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 06:40:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TX9RVFi6CHC7gkXBSPCjKNvj6T06w4E8vdDMGFgZFqY="
+        }
+      ]
+    },
+    {
+      "Route": "images/golfbaist-logo.z4c9b0b9wu.png",
+      "AssetFile": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\images\\golfbaist-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1997906"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TX9RVFi6CHC7gkXBSPCjKNvj6T06w4E8vdDMGFgZFqY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 06:40:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z4c9b0b9wu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/golfbaist-logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TX9RVFi6CHC7gkXBSPCjKNvj6T06w4E8vdDMGFgZFqY="
+        }
+      ]
+    },
+    {
+      "Route": "images/README-Logo-Instructions.5j0pv1h37h.txt",
+      "AssetFile": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\images\\README-Logo-Instructions.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8cGM4g/b884ZQyVvaB0Gj6qOcnnrtoF4toAtZ66lrOY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 06:40:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5j0pv1h37h"
+        },
+        {
+          "Name": "label",
+          "Value": "images/README-Logo-Instructions.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8cGM4g/b884ZQyVvaB0Gj6qOcnnrtoF4toAtZ66lrOY="
+        }
+      ]
+    },
+    {
+      "Route": "images/README-Logo-Instructions.txt",
+      "AssetFile": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\images\\README-Logo-Instructions.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8cGM4g/b884ZQyVvaB0Gj6qOcnnrtoF4toAtZ66lrOY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 07 Aug 2025 06:40:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8cGM4g/b884ZQyVvaB0Gj6qOcnnrtoF4toAtZ66lrOY="
+        }
+      ]
+    }
+  ]
+}

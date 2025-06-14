@@ -1,0 +1,704 @@
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\appsettings.json
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.staticwebassets.endpoints.json
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.exe
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.deps.json
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.runtimeconfig.json
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.pdb
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.AssemblyReference.cache
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.AssemblyInfoInputs.cache
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.AssemblyInfo.cs
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.CoreCompileInputs.cache
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.RazorAssemblyInfo.cache
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.RazorAssemblyInfo.cs
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.sourcelink.json
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\scopedcss\bundle\GolfBAIST.styles.css
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.GolfBAIST.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.GolfBAIST.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.build.GolfBAIST.props
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GolfBAIST.props
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GolfBAIST.props
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.Up2Date
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\refint\GolfBAIST.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.pdb
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.genruntimeconfig.cache
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\ref\GolfBAIST.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.AssemblyReference.cache
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.AssemblyInfoInputs.cache
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.AssemblyInfo.cs
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.CoreCompileInputs.cache
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.MvcApplicationPartsAssemblyInfo.cs
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.MvcApplicationPartsAssemblyInfo.cache
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.RazorAssemblyInfo.cache
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.RazorAssemblyInfo.cs
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.sourcelink.json
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\appsettings.Development.json
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\appsettings.json
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.staticwebassets.runtime.json
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.exe
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.deps.json
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.runtimeconfig.json
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.pdb
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Azure.Core.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Azure.Identity.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.ClientModel.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Memory.Data.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.build.json
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.development.json
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.GolfBAIST.Microsoft.AspNetCore.StaticWebAssets.props
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.build.GolfBAIST.props
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GolfBAIST.props
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GolfBAIST.props
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.pack.json
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\scopedcss\bundle\GolfBAIST.styles.css
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.Up2Date
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\refint\GolfBAIST.dll
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.pdb
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.genruntimeconfig.cache
+C:\GitRepos\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\ref\GolfBAIST.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\appsettings.json
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.staticwebassets.runtime.json
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.exe
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.deps.json
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.runtimeconfig.json
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.pdb
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.AssemblyReference.cache
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.AssemblyInfoInputs.cache
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.AssemblyInfo.cs
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.CoreCompileInputs.cache
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.RazorAssemblyInfo.cache
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.RazorAssemblyInfo.cs
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.GolfBAIST.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.build.GolfBAIST.props
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GolfBAIST.props
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GolfBAIST.props
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\scopedcss\bundle\GolfBAIST.styles.css
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.Up2Date
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\refint\GolfBAIST.dll
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.pdb
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.genruntimeconfig.cache
+C:\Users\Comed\OneDrive - NAIT\Desktop\GolfBAIST\GolfBAIST\obj\Debug\net8.0\ref\GolfBAIST.dll
+C:\Users\tsimmons11\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.staticwebassets.runtime.json
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\appsettings.json
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.staticwebassets.runtime.json
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.staticwebassets.endpoints.json
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.exe
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.deps.json
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.runtimeconfig.json
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.pdb
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.AssemblyReference.cache
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.AssemblyInfoInputs.cache
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.AssemblyInfo.cs
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.CoreCompileInputs.cache
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.RazorAssemblyInfo.cache
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.RazorAssemblyInfo.cs
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.sourcelink.json
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\scopedcss\bundle\GolfBAIST.styles.css
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.GolfBAIST.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.GolfBAIST.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.build.GolfBAIST.props
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GolfBAIST.props
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GolfBAIST.props
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.Up2Date
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\refint\GolfBAIST.dll
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.pdb
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.genruntimeconfig.cache
+C:\Users\Travis\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\ref\GolfBAIST.dll
+C:\Users\Travis\OneDrive\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.AssemblyReference.cache
+C:\Users\Travis\OneDrive\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Travis\OneDrive\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.AssemblyInfoInputs.cache
+C:\Users\Travis\OneDrive\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.AssemblyInfo.cs
+C:\Users\Travis\OneDrive\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.CoreCompileInputs.cache
+C:\Users\Travis\OneDrive\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Travis\OneDrive\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Travis\OneDrive\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.RazorAssemblyInfo.cache
+C:\Users\Travis\OneDrive\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.RazorAssemblyInfo.cs
+C:\Users\Travis\OneDrive\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.sourcelink.json
+C:\Users\Travis\OneDrive\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.dll
+C:\Users\Travis\OneDrive\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\refint\GolfBAIST.dll
+C:\Users\Travis\OneDrive\Documents\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.pdb
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\appsettings.Development.json
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\appsettings.json
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.staticwebassets.runtime.json
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.staticwebassets.endpoints.json
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.exe
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.deps.json
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.runtimeconfig.json
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.pdb
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Azure.Core.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Azure.Identity.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.ClientModel.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Memory.Data.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.AssemblyReference.cache
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.AssemblyInfoInputs.cache
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.AssemblyInfo.cs
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.CoreCompileInputs.cache
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.MvcApplicationPartsAssemblyInfo.cs
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.MvcApplicationPartsAssemblyInfo.cache
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.RazorAssemblyInfo.cache
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.RazorAssemblyInfo.cs
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\scopedcss\bundle\GolfBAIST.styles.css
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.build.json
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.development.json
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.GolfBAIST.Microsoft.AspNetCore.StaticWebAssets.props
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.GolfBAIST.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.build.GolfBAIST.props
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GolfBAIST.props
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GolfBAIST.props
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.pack.json
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.Up2Date
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\refint\GolfBAIST.dll
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.pdb
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.genruntimeconfig.cache
+C:\GitHub\BAIST-Files\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\ref\GolfBAIST.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\appsettings.Development.json
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\appsettings.json
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.staticwebassets.endpoints.json
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.staticwebassets.runtime.json
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.exe
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.deps.json
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.runtimeconfig.json
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\GolfBAIST.pdb
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Azure.Core.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Azure.Identity.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.ClientModel.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Memory.Data.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.AssemblyReference.cache
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.AssemblyInfoInputs.cache
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.AssemblyInfo.cs
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.CoreCompileInputs.cache
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.MvcApplicationPartsAssemblyInfo.cs
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.MvcApplicationPartsAssemblyInfo.cache
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.RazorAssemblyInfo.cache
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.RazorAssemblyInfo.cs
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.sourcelink.json
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\scopedcss\bundle\GolfBAIST.styles.css
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.build.json
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.development.json
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.GolfBAIST.Microsoft.AspNetCore.StaticWebAssets.props
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.GolfBAIST.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.build.GolfBAIST.props
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GolfBAIST.props
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GolfBAIST.props
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.pack.json
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.Up2Date
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\refint\GolfBAIST.dll
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.pdb
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\GolfBAIST.genruntimeconfig.cache
+C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\obj\Debug\net8.0\ref\GolfBAIST.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\appsettings.Development.json
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\appsettings.json
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\GolfBAIST.staticwebassets.runtime.json
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\GolfBAIST.staticwebassets.endpoints.json
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\GolfBAIST.exe
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\GolfBAIST.deps.json
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\GolfBAIST.runtimeconfig.json
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\GolfBAIST.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\GolfBAIST.pdb
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Azure.Core.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Azure.Identity.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\System.ClientModel.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\System.Memory.Data.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.AssemblyReference.cache
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\GolfBAIST.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\GolfBAIST.AssemblyInfoInputs.cache
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\GolfBAIST.AssemblyInfo.cs
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.CoreCompileInputs.cache
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\GolfBAIST.MvcApplicationPartsAssemblyInfo.cs
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\GolfBAIST.MvcApplicationPartsAssemblyInfo.cache
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\GolfBAIST.RazorAssemblyInfo.cache
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\GolfBAIST.RazorAssemblyInfo.cs
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\GolfBAIST.sourcelink.json
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\scopedcss\bundle\GolfBAIST.styles.css
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\staticwebassets.build.json
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\staticwebassets.development.json
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.GolfBAIST.Microsoft.AspNetCore.StaticWebAssets.props
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.GolfBAIST.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.build.GolfBAIST.props
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GolfBAIST.props
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GolfBAIST.props
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\staticwebassets.pack.json
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\GolfBAIST.csproj.Up2Date
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\GolfBAIST.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\refint\GolfBAIST.dll
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\GolfBAIST.pdb
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\GolfBAIST.genruntimeconfig.cache
+C:\GitHub\GolfBAIST-WebApp\GolfBAIST\obj\Debug\net8.0\ref\GolfBAIST.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\appsettings.json
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\GolfBAIST.staticwebassets.runtime.json
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\GolfBAIST.staticwebassets.endpoints.json
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\GolfBAIST.exe
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\GolfBAIST.deps.json
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\GolfBAIST.runtimeconfig.json
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\GolfBAIST.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\GolfBAIST.pdb
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\GolfBAIST.csproj.AssemblyReference.cache
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\GolfBAIST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\GolfBAIST.AssemblyInfoInputs.cache
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\GolfBAIST.AssemblyInfo.cs
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\GolfBAIST.csproj.CoreCompileInputs.cache
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\GolfBAIST.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\GolfBAIST.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\GolfBAIST.RazorAssemblyInfo.cache
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\GolfBAIST.RazorAssemblyInfo.cs
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\scopedcss\bundle\GolfBAIST.styles.css
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\staticwebassets\msbuild.GolfBAIST.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\staticwebassets\msbuild.GolfBAIST.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\staticwebassets\msbuild.build.GolfBAIST.props
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.GolfBAIST.props
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.GolfBAIST.props
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\GolfBAIST.csproj.Up2Date
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\GolfBAIST.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\refint\GolfBAIST.dll
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\GolfBAIST.pdb
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\GolfBAIST.genruntimeconfig.cache
+C:\Users\Travis\OneDrive\Desktop\GolfBAIST-WebApp-main\obj\Debug\net8.0\ref\GolfBAIST.dll

@@ -1,0 +1,200 @@
+﻿@page
+@model GolfBAIST.Pages.SignUpModel
+@{
+    ViewData["Title"] = "Sign Up";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.20/css/intlTelInput.css" />
+
+<div class="container mt-5">
+    <h2 class="mb-4">Sign Up</h2>
+
+    <form method="post">
+        <div class="row">
+            <!-- Left Column -->
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="Register_Username">Username</label>
+                    <input asp-for="Register.Username" class="form-control" required minlength="4" maxlength="30" />
+                </div>
+                <div class="form-group">
+                    <label for="Register_Password">Password</label>
+                    <input asp-for="Register.Password" class="form-control" type="password" required minlength="6" />
+                </div>
+                <div class="form-group">
+                    <label for="Register_Email">Email</label>
+                    <input asp-for="Register.Email" class="form-control" type="email" required />
+                </div>
+                <div class="form-group">
+                    <label for="Register_FirstName">First Name</label>
+                    <input asp-for="Register.FirstName" class="form-control" required />
+                </div>
+                <div class="form-group">
+                    <label for="Register_LastName">Last Name</label>
+                    <input asp-for="Register.LastName" class="form-control" required />
+                </div>
+                <div class="form-group">
+                    <label for="Register_DateOfBirth">Date of Birth</label>
+                    <input asp-for="Register.DateOfBirth" class="form-control" type="date" required />
+                </div>
+                <div class="form-group">
+                    <label for="Register_Address">Address</label>
+                    <input asp-for="Register.Address" class="form-control" required />
+                </div>
+                <!-- Postal Code -->
+                <div class="form-group">
+                    <label for="Register_PostalCode">Postal Code</label>
+                    <input asp-for="Register.PostalCode"
+                           class="form-control"
+                           id="postalCode"
+                           inputmode="text"
+                           maxlength="7"
+                           pattern="[A-Za-z]\d[A-Za-z][ ]?\d[A-Za-z]\d"
+                           title="Format: A1A 1A1"
+                           placeholder="e.g., T3R 2L3"
+                           required />
+                </div>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="Register_Phone">Phone</label>
+                    <input asp-for="Register.Phone" class="form-control" type="tel" id="phone" required />
+                </div>
+                <div class="form-group">
+                    <label for="Register_AlternatePhone">Alternate Phone</label>
+                    <input asp-for="Register.AlternatePhone" class="form-control" type="tel" id="altPhone" />
+                </div>
+                <div class="form-group">
+                    <label for="Register_Occupation">Occupation</label>
+                    <input asp-for="Register.Occupation" class="form-control" required />
+                </div>
+                <div class="form-group">
+                    <label for="Register_CompanyName">Company Name</label>
+                    <input asp-for="Register.CompanyName" class="form-control" required />
+                </div>
+                <div class="form-group">
+                    <label for="Register_MembershipTypeID">Membership Type</label>
+                    <select asp-for="Register.MembershipTypeID" class="form-control" required>
+                        <option value="">-- Select Membership Type --</option>
+                        <option value="1">Gold Shareholder</option>
+                        <option value="2">Gold Associate</option>
+                        <option value="3">Silver Shareholder Spouse</option>
+                        <option value="4">Silver Associate Spouse</option>
+                        <option value="5">Bronze Pee Wee</option>
+                        <option value="6">Bronze Junior</option>
+                        <option value="7">Bronze Intermediate</option>
+                        <option value="8">Copper Social</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="Register_Sponsor1">Sponsor 1 (Member ID)</label>
+                    <input asp-for="Register.Sponsor1"
+                           class="form-control"
+                           type="text"
+                           inputmode="numeric"
+                           pattern="^[1-9][0-9]*$"
+                           placeholder="Enter numeric ID"
+                           title="Only numeric Member IDs allowed (no leading zeroes)"
+                           value="@(Model.Register.Sponsor1?.ToString() ?? "")"
+                           required />
+                </div>
+
+                <div class="form-group">
+                    <label for="Register_Sponsor2">Sponsor 2 (Member ID)</label>
+                    <input asp-for="Register.Sponsor2"
+                           class="form-control"
+                           type="text"
+                           inputmode="numeric"
+                           pattern="^[1-9][0-9]*$"
+                           placeholder="Enter numeric ID"
+                           title="Only numeric Member IDs allowed (no leading zeroes)"
+                           value="@(Model.Register.Sponsor2?.ToString() ?? "")"
+                           required />
+                </div>
+
+                <div class="form-group mt-3">
+                    <div class="form-check">
+                        <input asp-for="Register.ConsentToEmail" class="form-check-input" />
+                        <label class="form-check-label" for="Register_ConsentToEmail">
+                            I consent to receive monthly statements via email
+                        </label>
+                    </div>
+
+                    <div class="form-check mt-2">
+                        <input asp-for="Register.AgreementAcknowledged" class="form-check-input" />
+                        <label class="form-check-label" for="Register_AgreementAcknowledged">
+                            I agree to Club BAIST’s rules, regulations, and terms of membership.
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary mt-3">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    @if (!string.IsNullOrEmpty(Model.Message))
+    {
+        <div class="alert alert-info mt-3">@Model.Message</div>
+    }
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.20/js/intlTelInput.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const phoneInput = document.querySelector("#phone");
+            const altPhoneInput = document.querySelector("#altPhone");
+
+            if (phoneInput) {
+                const iti = window.intlTelInput(phoneInput, {
+                    initialCountry: "ca",
+                    separateDialCode: true,
+                    nationalMode: false,
+                    autoHideDialCode: false,
+                    formatOnDisplay: true,
+                    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.20/js/utils.js"
+                });
+
+                $(phoneInput).mask('(000) 000-0000', { placeholder: "(###) ###-####" });
+            }
+
+            if (altPhoneInput) {
+                const itiAlt = window.intlTelInput(altPhoneInput, {
+                    initialCountry: "ca",
+                    separateDialCode: true,
+                    nationalMode: false,
+                    autoHideDialCode: false,
+                    formatOnDisplay: true,
+                    utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.20/js/utils.js"
+                });
+
+                $(altPhoneInput).mask('(000) 000-0000', { placeholder: "(###) ###-####" });
+            }
+
+            // SPONSOR FIELDS
+            const sponsorFields = [
+                document.querySelector("input[name='Register.Sponsor1']"),
+                document.querySelector("input[name='Register.Sponsor2']")
+            ];
+
+            sponsorFields.forEach(field => {
+                field.addEventListener("input", () => {
+                    field.value = field.value.replace(/[^0-9]/g, '').replace(/^0+/, '');
+                });
+            });
+
+            // POSTAL CODE LIVE VALIDATION
+            const postal = document.querySelector("#postalCode");
+            postal.addEventListener("input", () => {
+                let value = postal.value.toUpperCase().replace(/[^A-Z0-9]/g, '');
+                if (value.length > 3) value = value.slice(0, 3) + ' ' + value.slice(3);
+                postal.value = value.slice(0, 7);
+            });
+        });
+    </script>
+}

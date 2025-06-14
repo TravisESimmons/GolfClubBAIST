@@ -1,0 +1,88 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/GolfBAIST/css/employee-portal-modern.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\employee-portal-modern.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fF43d1H3XjLcar0umx0AOZQDmllTLpT3vGV7dcBx9SA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4532"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fF43d1H3XjLcar0umx0AOZQDmllTLpT3vGV7dcBx9SA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 07 Aug 2025 06:40:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GolfBAIST/css/employee-portal-modern.ovlzwyilfa.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\employee-portal-modern.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ovlzwyilfa"},{"Name":"integrity","Value":"sha256-fF43d1H3XjLcar0umx0AOZQDmllTLpT3vGV7dcBx9SA="},{"Name":"label","Value":"_content/GolfBAIST/css/employee-portal-modern.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4532"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022fF43d1H3XjLcar0umx0AOZQDmllTLpT3vGV7dcBx9SA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 07 Aug 2025 06:40:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GolfBAIST/css/resources/GB-Logo.h8n2yzq9ay.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\resources\GB-Logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h8n2yzq9ay"},{"Name":"integrity","Value":"sha256-IZBna\u002BckqrYK/jUxtQBWkivGEsc77WdIaraw2dlKPfk="},{"Name":"label","Value":"_content/GolfBAIST/css/resources/GB-Logo.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1428470"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022IZBna\u002BckqrYK/jUxtQBWkivGEsc77WdIaraw2dlKPfk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 07 Aug 2025 06:40:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GolfBAIST/css/resources/GB-Logo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\resources\GB-Logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IZBna\u002BckqrYK/jUxtQBWkivGEsc77WdIaraw2dlKPfk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1428470"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022IZBna\u002BckqrYK/jUxtQBWkivGEsc77WdIaraw2dlKPfk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 07 Aug 2025 06:40:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GolfBAIST/css/site.1fluxkci75.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1fluxkci75"},{"Name":"integrity","Value":"sha256-E2cH32F1d2ySJgs9peDTFmZiX4PNWRkQOngJGZAs7Rk="},{"Name":"label","Value":"_content/GolfBAIST/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"47146"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022E2cH32F1d2ySJgs9peDTFmZiX4PNWRkQOngJGZAs7Rk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 07 Aug 2025 06:40:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GolfBAIST/css/site.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-E2cH32F1d2ySJgs9peDTFmZiX4PNWRkQOngJGZAs7Rk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"47146"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022E2cH32F1d2ySJgs9peDTFmZiX4PNWRkQOngJGZAs7Rk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 07 Aug 2025 06:40:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GolfBAIST/css/standing-cancellation-table.5mqemndkna.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\standing-cancellation-table.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5mqemndkna"},{"Name":"integrity","Value":"sha256-wx8N4ojAUeHuG3Vhm2BymL3R9XmtuOn0S3Si1kR/d1Q="},{"Name":"label","Value":"_content/GolfBAIST/css/standing-cancellation-table.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2116"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022wx8N4ojAUeHuG3Vhm2BymL3R9XmtuOn0S3Si1kR/d1Q=\u0022"},{"Name":"Last-Modified","Value":"Thu, 07 Aug 2025 06:40:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GolfBAIST/css/standing-cancellation-table.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\standing-cancellation-table.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wx8N4ojAUeHuG3Vhm2BymL3R9XmtuOn0S3Si1kR/d1Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2116"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022wx8N4ojAUeHuG3Vhm2BymL3R9XmtuOn0S3Si1kR/d1Q=\u0022"},{"Name":"Last-Modified","Value":"Thu, 07 Aug 2025 06:40:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GolfBAIST/images/gb-nav-logo.ga9kn0h196.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\gb-nav-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ga9kn0h196"},{"Name":"integrity","Value":"sha256-CDMLjKKlObk1OY4TKGcb9scz6k5ht9IyXH\u002B1XScJfiA="},{"Name":"label","Value":"_content/GolfBAIST/images/gb-nav-logo.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1049277"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022CDMLjKKlObk1OY4TKGcb9scz6k5ht9IyXH\u002B1XScJfiA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 07 Aug 2025 06:40:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GolfBAIST/images/gb-nav-logo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\gb-nav-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CDMLjKKlObk1OY4TKGcb9scz6k5ht9IyXH\u002B1XScJfiA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1049277"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022CDMLjKKlObk1OY4TKGcb9scz6k5ht9IyXH\u002B1XScJfiA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 07 Aug 2025 06:40:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GolfBAIST/images/golfbaist-logo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\golfbaist-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TX9RVFi6CHC7gkXBSPCjKNvj6T06w4E8vdDMGFgZFqY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1997906"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022TX9RVFi6CHC7gkXBSPCjKNvj6T06w4E8vdDMGFgZFqY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 07 Aug 2025 06:40:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GolfBAIST/images/golfbaist-logo.z4c9b0b9wu.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\golfbaist-logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"z4c9b0b9wu"},{"Name":"integrity","Value":"sha256-TX9RVFi6CHC7gkXBSPCjKNvj6T06w4E8vdDMGFgZFqY="},{"Name":"label","Value":"_content/GolfBAIST/images/golfbaist-logo.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1997906"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022TX9RVFi6CHC7gkXBSPCjKNvj6T06w4E8vdDMGFgZFqY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 07 Aug 2025 06:40:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GolfBAIST/images/README-Logo-Instructions.5j0pv1h37h.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\README-Logo-Instructions.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5j0pv1h37h"},{"Name":"integrity","Value":"sha256-8cGM4g/b884ZQyVvaB0Gj6qOcnnrtoF4toAtZ66lrOY="},{"Name":"label","Value":"_content/GolfBAIST/images/README-Logo-Instructions.txt"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"733"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u00228cGM4g/b884ZQyVvaB0Gj6qOcnnrtoF4toAtZ66lrOY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 07 Aug 2025 06:40:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GolfBAIST/images/README-Logo-Instructions.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\README-Logo-Instructions.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-8cGM4g/b884ZQyVvaB0Gj6qOcnnrtoF4toAtZ66lrOY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"733"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u00228cGM4g/b884ZQyVvaB0Gj6qOcnnrtoF4toAtZ66lrOY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 07 Aug 2025 06:40:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

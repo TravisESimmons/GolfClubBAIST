@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "oclvc7+65e4fJbSJLXi02Z33bNltE1j6moxtFfXq4tk=",
+  "Source": "GolfBAIST",
+  "BasePath": "_content/GolfBAIST",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GolfBAIST\\wwwroot",
+      "Source": "GolfBAIST",
+      "ContentRoot": "C:\\GitHub\\BAIST-FILES-NEW\\BAIST-Files-UPDATED\\3130\\GolfBAIST\\GolfBAIST\\wwwroot\\",
+      "BasePath": "_content/GolfBAIST",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\GitHub\\BAIST-FILES-NEW\\BAIST-Files-UPDATED\\3130\\GolfBAIST\\GolfBAIST\\wwwroot\\css\\site.css",
+      "SourceId": "GolfBAIST",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\GitHub\\BAIST-FILES-NEW\\BAIST-Files-UPDATED\\3130\\GolfBAIST\\GolfBAIST\\wwwroot\\",
+      "BasePath": "_content/GolfBAIST",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ax8jgp7p33",
+      "Integrity": "Eojx8XSnV4jZOQoStb/pKWgROAsGvEamSkYeKQl/J8k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.ax8jgp7p33.css",
+      "AssetFile": "C:\\GitHub\\BAIST-FILES-NEW\\BAIST-Files-UPDATED\\3130\\GolfBAIST\\GolfBAIST\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6964"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Eojx8XSnV4jZOQoStb/pKWgROAsGvEamSkYeKQl/J8k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 11:55:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ax8jgp7p33"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Eojx8XSnV4jZOQoStb/pKWgROAsGvEamSkYeKQl/J8k="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\GitHub\\BAIST-FILES-NEW\\BAIST-Files-UPDATED\\3130\\GolfBAIST\\GolfBAIST\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6964"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Eojx8XSnV4jZOQoStb/pKWgROAsGvEamSkYeKQl/J8k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 11:55:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Eojx8XSnV4jZOQoStb/pKWgROAsGvEamSkYeKQl/J8k="
+        }
+      ]
+    }
+  ]
+}

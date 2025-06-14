@@ -1,0 +1,123 @@
+﻿@page
+@model GolfBAIST.Pages.StandingTeeTimeModel
+@{
+    ViewData["Title"] = "Request Standing Tee Time";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h2 class="mt-4 mb-3">Request Standing Tee Time</h2>
+
+@if (!string.IsNullOrEmpty(Model.Message))
+{
+    <div class="alert alert-success text-center">
+        @Model.Message
+    </div>
+}
+
+<form method="post">
+    <input type="hidden" id="MemberID" name="MemberID" value="@Model.ShareholderID" />
+
+    <div class="form-group">
+        <label for="MemberName">Member Name</label>
+        <input id="MemberName" type="text" class="form-control" value="@Model.ShareholderName" disabled />
+    </div>
+
+    <div class="form-group">
+        <label for="TimeSlot">Select Tee Time</label>
+        <select id="TimeSlot" class="form-control" required>
+            <option value="">-- Select Time Slot --</option>
+        </select>
+    </div>
+
+    <input type="hidden" id="StartTime" name="StartTime" />
+    <input type="hidden" id="EndTime" name="EndTime" />
+
+    <div class="form-group">
+        <label for="StartDate">Start Date</label>
+        <input id="StartDate" name="StartDate" type="text" class="form-control datepicker" required />
+    </div>
+
+    <div class="form-group">
+        <label for="EndDate">End Date</label>
+        <input id="EndDate" name="EndDate" type="text" class="form-control datepicker" required />
+    </div>
+
+    <div class="form-group">
+        <label for="AdditionalPlayer1ID">Additional Player 1 ID</label>
+        <input id="AdditionalPlayer1ID" name="AdditionalPlayer1ID" type="number" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="AdditionalPlayer2ID">Additional Player 2 ID</label>
+        <input id="AdditionalPlayer2ID" name="AdditionalPlayer2ID" type="number" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="AdditionalPlayer3ID">Additional Player 3 ID</label>
+        <input id="AdditionalPlayer3ID" name="AdditionalPlayer3ID" type="number" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit Request</button>
+</form>
+
+@section Scripts {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr@4.6.13/dist/flatpickr.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".datepicker").flatpickr({
+                dateFormat: "Y-m-d",
+                altInput: true,
+                altFormat: "F j, Y",
+                disableMobile: true
+            });
+
+            const $timeSlot = $("#TimeSlot");
+            const interval = 8;
+            const startHour = 6;
+            const endHour = 20;
+
+            function formatTime(h, m) {
+                return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}`;
+            }
+
+            function populateTimeSlots() {
+                for (let h = startHour; h < endHour; h++) {
+                    for (let m = 0; m < 60; m += interval) {
+                        let start = formatTime(h, m);
+                        let endMinute = m + interval;
+                        let endHour = h;
+                        if (endMinute >= 60) {
+                            endMinute -= 60;
+                            endHour++;
+                        }
+                        let end = formatTime(endHour, endMinute);
+                        let label = `${start} - ${end}`;
+                        let value = `${start}|${end}`;
+                        $timeSlot.append(new Option(label, value));
+                    }
+                }
+            }
+
+            populateTimeSlots();
+
+            if ($timeSlot.val() === "") {
+                $timeSlot.prop("selectedIndex", 1);
+            }
+
+            $timeSlot.on("change", function () {
+                const val = $(this).val();
+                if (val && val.includes("|")) {
+                    const [start, end] = val.split('|');
+                    $("#StartTime").val(start);
+                    $("#EndTime").val(end);
+                }
+            });
+
+            setTimeout(() => {
+                $timeSlot.trigger("change");
+            }, 100);
+        });
+    </script>
+}

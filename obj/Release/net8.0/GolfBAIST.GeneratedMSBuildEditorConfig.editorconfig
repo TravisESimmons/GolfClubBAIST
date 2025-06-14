@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GolfBAIST
+build_property.RootNamespace = GolfBAIST
+build_property.ProjectDir = C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\GitHub\BAIST-FILES-NEW\BAIST-Files-UPDATED\3130\GolfBAIST\GolfBAIST
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/BookingTeeTime.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va2luZ1RlZVRpbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/CreateEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlRW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/EmployeePortal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVQb3J0YWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/EmployeeViewApplication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVWaWV3QXBwbGljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/EmployeeViewScoreSheet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVWaWV3U2NvcmVTaGVldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/ModifyTeeTime.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kaWZ5VGVlVGltZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/MyTeeTimes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlUZWVUaW1lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/PlayerStats.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxheWVyU3RhdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/ScoreSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2NvcmVTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/Shared/_EmployeeTeeTimesTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9FbXBsb3llZVRlZVRpbWVzVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/Shared/_ManageReservationsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9NYW5hZ2VSZXNlcnZhdGlvbnNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/Shared/_PendingMembersTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9QZW5kaW5nTWVtYmVyc1RhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/Shared/_PlayersList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9QbGF5ZXJzTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/Shared/_StandingCancellationTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9TdGFuZGluZ0NhbmNlbGxhdGlvblRhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/Shared/_StandingRequestTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9TdGFuZGluZ1JlcXVlc3RUYWJsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/Shared/_TeeTimeCancellationTable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9UZWVUaW1lQ2FuY2VsbGF0aW9uVGFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnblVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/StandingTeeTime.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhbmRpbmdUZWVUaW1lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/ViewScoreSheet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1Njb3JlU2hlZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/BAIST-FILES-NEW/BAIST-Files-UPDATED/3130/GolfBAIST/GolfBAIST/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

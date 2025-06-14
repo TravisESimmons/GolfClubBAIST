@@ -1,0 +1,127 @@
+﻿@page
+@model GolfBAIST.Pages.Employees.EmployeeViewScoreSheetModel
+@{
+    ViewData["Title"] = "View Scorecard";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">📊 Employee Scorecard View</h4>
+                </div>
+                <div class="card-body">
+
+                    @if (!string.IsNullOrEmpty(Model.StatusMessage))
+                    {
+                        <div class="alert alert-success">@Model.StatusMessage</div>
+                    }
+
+                    @if (!ModelState.IsValid && ModelState.Values.Any(v => v.Errors.Count > 0))
+                    {
+                        <div class="alert alert-danger">Please correct the errors below.</div>
+                    }
+
+                    <form method="post">
+                        <input asp-for="Score.ScoreID" type="hidden" />
+                        <input asp-for="Score.TeeTimeID" type="hidden" />
+                        <input asp-for="Score.MemberID" type="hidden" />
+
+                        <div class="row mb-4">
+                            <div class="col-md-3">
+                                <label asp-for="Score.CourseName" class="form-label fw-bold">Course Name</label>
+                                <input asp-for="Score.CourseName" class="form-control" required />
+                            </div>
+                            <div class="col-md-2">
+                                <label asp-for="Score.CourseRating" class="form-label fw-bold">Course Rating</label>
+                                <input asp-for="Score.CourseRating" type="number" step="0.1" class="form-control" required />
+                            </div>
+                            <div class="col-md-2">
+                                <label asp-for="Score.SlopeRating" class="form-label fw-bold">Slope Rating</label>
+                                <input asp-for="Score.SlopeRating" type="number" class="form-control" required />
+                            </div>
+                            <div class="col-md-2">
+                                <label asp-for="Score.Differential" class="form-label fw-bold">Differential</label>
+                                <input asp-for="Score.Differential" type="number" step="0.1" class="form-control" readonly />
+                            </div>
+                            <div class="col-md-3">
+                                <label asp-for="Score.Date" class="form-label fw-bold">Date Played</label>
+                                <input asp-for="Score.Date" type="date" class="form-control" required />
+                            </div>
+                        </div>
+
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover">
+                                <thead class="table-dark">
+                                    <tr class="text-center">
+                                        <th style="width: 60px;">Hole</th>
+                                        <th style="width: 60px;">Par</th>
+                                        <th style="width: 80px;">Strokes</th>
+                                        <th style="width: 60px;">Hole</th>
+                                        <th style="width: 60px;">Par</th>
+                                        <th style="width: 80px;">Strokes</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @for (int i = 1; i <= 9; i++)
+                                    {
+                                        <tr class="text-center">
+                                            <td class="fw-bold">@i</td>
+                                            <td>@Model.GetPar(i)</td>
+                                            <td>
+                                                <input class="form-control text-center"
+                                                       type="number"
+                                                       name="Strokes[@i]"
+                                                       value="@(Model.Strokes.ContainsKey(i) ? Model.Strokes[i] : 0)"
+                                                       min="1"
+                                                       max="12"
+                                                       required />
+                                            </td>
+                                            <td class="fw-bold">@(i + 9)</td>
+                                            <td>@Model.GetPar(i + 9)</td>
+                                            <td>
+                                                <input class="form-control text-center"
+                                                       type="number"
+                                                       name="Strokes[@(i + 9)]"
+                                                       value="@(Model.Strokes.ContainsKey(i + 9) ? Model.Strokes[i + 9] : 0)"
+                                                       min="1"
+                                                       max="12"
+                                                       required />
+                                            </td>
+                                        </tr>
+                                    }
+                                    <tr class="table-info fw-bold text-center">
+                                        <td colspan="2">Front 9 Total</td>
+                                        <td>@Model.Strokes.Where(s => s.Key <= 9).Sum(s => s.Value)</td>
+                                        <td colspan="2">Back 9 Total</td>
+                                        <td>@Model.Strokes.Where(s => s.Key > 9).Sum(s => s.Value)</td>
+                                    </tr>
+                                    <tr class="table-success fw-bold text-center">
+                                        <td colspan="5">Total Score</td>
+                                        <td>@Model.Strokes.Sum(s => s.Value)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="d-flex justify-content-between mt-4">
+                            <a asp-page="/EmployeePortal"
+                               asp-route-tab="scores"
+                               asp-route-TeeTimeID="@Model.Score.TeeTimeID"
+                               asp-route-scrollToPlayers="true"
+                               class="btn btn-outline-secondary">
+                                ← Back to Portal
+                            </a>
+
+                            <button type="submit" class="btn btn-success">
+                                💾 Save Changes
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

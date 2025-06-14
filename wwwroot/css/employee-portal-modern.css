@@ -1,0 +1,197 @@
+/* Modern tabbed sub-tabs for Employee Portal */
+.sub-tabs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2.5px solid #e0e3e7;
+    padding-left: 0.2rem;
+    position: relative;
+    z-index: 10;
+}
+.sub-tab {
+    display: inline-block;
+    padding: 0.55rem 1.6rem 0.5rem 1.6rem;
+    border-radius: 1.2rem 1.2rem 0 0;
+    background: #f4f6fa;
+    color: #495057;
+    border: 1.5px solid #e0e3e7;
+    border-bottom: none;
+    font-weight: 500;
+    cursor: pointer;
+    min-width: 130px;
+    text-align: center;
+    margin-bottom: -2.5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+    position: relative;
+    z-index: 1;
+}
+.sub-tab.selected {
+    background: #fff;
+    color: #007bff;
+    border-bottom: 2.5px solid #fff;
+    font-weight: 600;
+    z-index: 2;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+.sub-tab:not(.selected):hover {
+    background: #e9ecef;
+    color: #0056b3;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+@media (max-width: 768px) {
+    .sub-tabs {
+        gap: 0.4rem;
+        padding-left: 0;
+    }
+    .sub-tab {
+        padding: 0.38rem 0.7rem 0.35rem 0.7rem;
+        font-size: 0.98rem;
+        min-width: 90px;
+        border-radius: 0.8rem 0.8rem 0 0;
+    }
+}
+/* employee-portal-modern.css */
+
+/* 1. Modern font and base styles */
+body, .container, .tab-content, .table, .form-control, .btn {
+    font-family: 'Segoe UI', 'Inter', 'Roboto', Arial, sans-serif;
+    font-size: 1.05rem;
+    color: #222;
+}
+
+/* 2. Tabs & Navigation */
+.nav-tabs {
+    border-bottom: 2px solid #e0e0e0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    background: #fff;
+    border-radius: 0.75rem 0.75rem 0 0;
+    padding: 0.5rem 1rem 0 1rem;
+}
+.nav-tabs .nav-link {
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem 0.5rem 0 0;
+    margin-right: 0.5rem;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.nav-tabs .nav-link.active {
+    background: #f8f9fa;
+    color: #007bff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.nav-tabs .nav-link:hover {
+    background: #f1f3f6;
+    color: #0056b3;
+}
+
+/* 3. Main container */
+.container {
+    background: #fff;
+    border-radius: 1.25rem;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    padding: 2.5rem 2.5rem 2rem 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* 4. Table styles */
+.table {
+    border-radius: 0.75rem;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+.table th, .table td {
+    font-size: 1rem;
+    padding: 0.7rem 1.1rem;
+    border: none;
+    vertical-align: middle;
+}
+.table th {
+    background: #343a40;
+    color: #fff;
+    font-weight: 700;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+.table tr {
+    background: #fff;
+    transition: background 0.15s;
+}
+.table tr:nth-child(even) {
+    background: #f6f8fa;
+}
+.table tbody tr:hover {
+    background: #e9f5ff;
+}
+.table td:first-child, .table th:first-child {
+    border-top-left-radius: 0.75rem;
+    border-bottom-left-radius: 0.75rem;
+}
+.table td:last-child, .table th:last-child {
+    border-top-right-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+}
+
+/* 5. Buttons */
+.btn, .btn-compact, .view-players-btn {
+    border-radius: 1.5rem !important;
+    font-weight: 600;
+    font-size: 0.98rem !important;
+    padding: 0.45rem 1.1rem !important;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+    transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+}
+.btn-primary {
+    background: #007bff;
+    border: none;
+}
+.btn-primary:hover, .btn-primary:focus {
+    background: #0056b3;
+    color: #fff;
+}
+.btn-info {
+    background: #17a2b8;
+    border: none;
+}
+.btn-info:hover, .btn-info:focus {
+    background: #117a8b;
+    color: #fff;
+}
+
+/* 6. Forms */
+.form-control {
+    border-radius: 1.5rem;
+    border: 1px solid #d1d5db;
+    padding: 0.6rem 1.1rem;
+    font-size: 1rem;
+    transition: border 0.18s, box-shadow 0.18s;
+}
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px #e3f0ff;
+}
+
+/* 7. Misc */
+.alert {
+    border-radius: 1rem;
+    font-size: 1.05rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 900px) {
+    .container {
+        padding: 1.2rem 0.5rem;
+    }
+    .table th, .table td {
+        padding: 0.5rem 0.5rem;
+        font-size: 0.95rem;
+    }
+    .btn, .btn-compact, .view-players-btn {
+        font-size: 0.93rem !important;
+        padding: 0.35rem 0.7rem !important;
+    }
+}

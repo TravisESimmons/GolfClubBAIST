@@ -1,0 +1,31 @@
+﻿@model List<GolfBAIST.Models.Member>
+
+<div class="table-responsive">
+    <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>Last</th>
+                <th>First</th>
+                <th>Email</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var m in Model)
+            {
+                <tr>
+                    <td>@m.LastName</td>
+                    <td>@m.FirstName</td>
+                    <td>@m.Email</td>
+                    <td>@m.MembershipStatus</td>
+                    <td>
+                        <form method="post" asp-page-handler="ApproveMember" asp-route-id="@m.MemberID">
+                            <button class="btn btn-sm btn-success">Approve</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

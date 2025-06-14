@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\css\\employee-portal-modern.css",
+      "PackagePath": "staticwebassets\\css\\employee-portal-modern.css"
+    },
+    {
+      "Id": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\css\\resources\\GB-Logo.png",
+      "PackagePath": "staticwebassets\\css\\resources\\GB-Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\css\\standing-cancellation-table.css",
+      "PackagePath": "staticwebassets\\css\\standing-cancellation-table.css"
+    },
+    {
+      "Id": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\images\\README-Logo-Instructions.txt",
+      "PackagePath": "staticwebassets\\images\\README-Logo-Instructions.txt"
+    },
+    {
+      "Id": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\images\\gb-nav-logo.png",
+      "PackagePath": "staticwebassets\\images\\gb-nav-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\images\\golfbaist-logo.png",
+      "PackagePath": "staticwebassets\\images\\golfbaist-logo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GolfBAIST.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GolfBAIST.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GolfBAIST.props",
+      "PackagePath": "build\\GolfBAIST.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GolfBAIST.props",
+      "PackagePath": "buildMultiTargeting\\GolfBAIST.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GolfBAIST.props",
+      "PackagePath": "buildTransitive\\GolfBAIST.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

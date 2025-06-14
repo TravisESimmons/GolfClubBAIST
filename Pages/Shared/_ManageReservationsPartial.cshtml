@@ -1,0 +1,104 @@
+﻿@model GolfBAIST.Pages.EmployeePortalModel
+
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@{
+    var basePath = HttpContextAccessor.HttpContext?.Request.PathBase.Value ?? "";
+}
+
+<form method="post" asp-page-handler="SearchTeeTimeManage" asp-route-tab="manage" class="d-flex flex-wrap align-items-center gap-2 mb-3">
+    <input type="text" name="TeeTimeSearchTerm" value="@Model.TeeTimeSearchTerm" class="form-control bg-light" placeholder="Search by Tee Time ID or Date (yyyy-mm-dd)" />
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+@if (Model.FilteredTeeTimes?.Count > 0)
+{
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>ID</th>
+                <th>Date</th>
+                <th>Start</th>
+                <th>End</th>
+                <th>Players</th>
+                <th>Booked By</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tee in Model.FilteredTeeTimes)
+            {
+                <tr id="teeRow-@tee.TeeTimeID">
+                    <td>@tee.TeeTimeID</td>
+                    <td>@tee.Date.ToString("yyyy-MM-dd")</td>
+                    <td>@(tee.StartTime != null ? tee.StartTime.ToString(@"hh\:mm") : "-")</td>
+                    <td>@(tee.EndTime != null ? tee.EndTime.ToString(@"hh\:mm") : "-")</td>
+                    <td>@tee.Players</td>
+                    <td>@(Model.MemberNames.TryGetValue(tee.MemberID, out var memberName) ? memberName : "Unknown")</td>
+                    <td style="padding: 8px;">
+                        <div style="display: flex; gap: 8px; flex-direction: column; border: none !important; border-top: none !important;">
+                            <a href="@($"{basePath}/ModifyTeeTime/{tee.TeeTimeID}?role=employee")" class="btn btn-outline-success btn-sm" style="width: 100%; font-size: 0.85em; padding: 6px 12px; border-radius: 4px; text-decoration: none;">✏️ Edit</a>
+                            <button type="button" class="btn btn-outline-danger btn-sm" style="width: 100%; font-size: 0.85em; padding: 6px 12px; border-radius: 4px;" onclick="confirmDelete(@tee.TeeTimeID)">🗑️ Delete</button>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="text-muted">No tee times found.</p>
+}
+
+<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content border-danger">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title">Confirm Deletion</h5>
+                <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">Are you sure you want to delete this tee time?</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button id="confirmDeleteBtn" class="btn btn-danger">Yes, Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const basePath = "@basePath";
+    let deleteTeeTimeId = null;
+
+    function confirmDelete(teeTimeId) {
+        deleteTeeTimeId = teeTimeId;
+        $('#deleteModal').modal('show');
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("confirmDeleteBtn").addEventListener("click", function () {
+            const token = document.querySelector('input[name="__RequestVerificationToken"]').value;
+
+            fetch(`${basePath}/EmployeePortal?handler=DeleteAjax`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "RequestVerificationToken": token
+                },
+                body: JSON.stringify({ teeTimeId: deleteTeeTimeId })
+            })
+            .then(res => res.json())
+            .then(data => {
+                if (data.success) {
+                    document.getElementById("teeRow-" + deleteTeeTimeId).remove();
+                    $('#deleteModal').modal('hide');
+                } else {
+                    alert("Error: " + data.error);
+                }
+            })
+            .catch(err => console.error("AJAX Delete Error", err));
+        });
+    });
+</script>

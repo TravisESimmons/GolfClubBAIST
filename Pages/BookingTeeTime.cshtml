@@ -1,0 +1,277 @@
+﻿@page
+@model GolfBAIST.Pages.BookingTeeTimeModel
+
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@{
+    var basePath = HttpContextAccessor.HttpContext?.Request.PathBase.Value ?? "";
+}
+
+@{
+    ViewData["Title"] = "Book a Tee Time";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-10">
+
+            <h2 class="mb-4 text-center">Book or Join a Tee Time</h2>
+
+            @if (!string.IsNullOrEmpty(Model.Message))
+            {
+                <div class="alert alert-info text-center">@Model.Message</div>
+            }
+
+            <ul class="nav nav-tabs mb-3" id="bookingTabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="book-tab" data-toggle="tab" href="#book" role="tab">Book New</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="open-tab" data-toggle="tab" href="#open" role="tab">View Open Slots</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="join-tab" data-toggle="tab" href="#join" role="tab">Join Existing</a>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="bookingTabContent">
+
+                <!-- BOOK NEW -->
+                <div class="tab-pane fade show active" id="book" role="tabpanel">
+                    <form method="post" class="bg-white p-4 rounded shadow-sm">
+                        <input type="hidden" asp-for="TeeTime.MemberID" value="@Model.TeeTime.MemberID" />
+
+                        <div class="form-group">
+                            <label for="Date">Date</label>
+                            <input type="text" class="form-control datepicker" id="Date" name="TeeTime.Date" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="TimeSlot">Select Tee Time</label>
+                            <select class="form-control" id="TimeSlot" name="TimeSlot" required></select>
+                        </div>
+
+                        <input type="hidden" id="StartTime" name="TeeTime.StartTime" />
+                        <input type="hidden" id="EndTime" name="TeeTime.EndTime" />
+
+                        <div class="form-group">
+                            <label for="Players">Number of Players</label>
+                            <input type="number" class="form-control" id="Players" name="TeeTime.Players" min="1" max="4" required />
+                        </div>
+
+                        <div id="additional-members" class="form-group"></div>
+
+                        <div class="form-group">
+                            <label for="Phone">Phone</label>
+                            <input type="tel" class="form-control" id="Phone" name="TeeTime.Phone" value="@Model.TeeTime.Phone" readonly />
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="Carts">Number of Carts</label>
+                            <input type="number" class="form-control" id="Carts" name="TeeTime.Carts" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="EmployeeName">Employee Name (optional)</label>
+                            <input type="text" class="form-control" id="EmployeeName" name="TeeTime.EmployeeName" />
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Book Tee Time</button>
+                    </form>
+                </div>
+
+                <!-- VIEW OPEN TIME SLOTS -->
+                <div class="tab-pane fade" id="open" role="tabpanel">
+                    <div class="form-group mt-4">
+                        <label for="CheckDate">Select Date</label>
+                        <input type="text" id="CheckDate" class="form-control datepicker" />
+                    </div>
+                    <div class="open-slots-scroll mt-3">
+                        <div id="open-slots-result"></div>
+                    </div>
+
+                </div>
+
+                <!-- JOIN EXISTING TEE TIME -->
+                <div class="tab-pane fade" id="join" role="tabpanel">
+                    @if (Model.AvailableJoinableTeeTimes.Count > 0)
+                    {
+                        <table class="table table-bordered table-striped mt-4">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Start</th>
+                                    <th>End</th>
+                                    <th>Players</th>
+                                    <th>Join</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var t in Model.AvailableJoinableTeeTimes)
+                                {
+                                    <tr>
+                                        <td>@t.Date.ToString("yyyy-MM-dd")</td>
+                                        <td>@t.StartTime</td>
+                                        <td>@t.EndTime</td>
+                                        <td>@t.Players</td>
+                                        <td style="padding: 0.5rem; text-align: center; vertical-align: middle;">
+                                            <form method="post" asp-page-handler="Join" class="compact-form">
+                                                <input type="hidden" name="teeTimeId" value="@t.TeeTimeID" />
+                                                <button type="submit" class="btn btn-outline-success btn-sm px-3 py-1">Join</button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                    else
+                    {
+                        <p class="mt-4 text-muted text-center">No tee times currently available for joining.</p>
+                    }
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <script>
+        const basePath = "@basePath";
+        function formatTime(h, m) {
+            return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}`;
+        }
+
+        function populateTimeSlots() {
+            const startHour = 6;
+            const endHour = 20;
+            const interval = 8;
+            const $select = $("#TimeSlot").empty();
+
+            for (let h = startHour; h < endHour; h++) {
+                for (let m = 0; m < 60; m += interval) {
+                    let start = formatTime(h, m);
+                    let end = formatTime(h + Math.floor((m + interval) / 60), (m + interval) % 60);
+                    $select.append(`<option value="${start}|${end}">${start} - ${end}</option>`);
+                }
+            }
+
+            $select.trigger("change");
+        }
+
+        function initFlatpickr(selector) {
+            flatpickr(selector, {
+                dateFormat: "Y-m-d",
+                defaultDate: "today",
+                allowInput: true
+            });
+        }
+
+        $(document).ready(function () {
+            populateTimeSlots();
+            initFlatpickr("#Date");
+            initFlatpickr("#CheckDate");
+
+            $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+                const target = $(e.target).attr("href");
+                if (target === "#open") {
+                    $("#CheckDate").flatpickr().open();
+                }
+            });
+
+            $("#TimeSlot").on("change", function () {
+                const [start, end] = $(this).val().split("|");
+                $("#StartTime").val(start);
+                $("#EndTime").val(end);
+            });
+
+            $("#Players").on("change", function () {
+                const count = parseInt($(this).val());
+                const container = $("#additional-members").empty();
+                for (let i = 1; i < count; i++) {
+                    container.append(`
+                        <div class="form-group">
+                            <label>Member ID for Player ${i + 1}</label>
+                            <input type="number" name="TeeTime.AdditionalMemberIDs[${i - 1}]" class="form-control" required />
+                        </div>
+                    `);
+                }
+            });
+
+            $("#CheckDate").on("change", function () {
+                const selectedDate = $(this).val();
+
+                $.get(`${basePath}/api/teetimes/available?date=${selectedDate}`, function (data) {
+                    let html = '<div class="row">';
+                    data.forEach(slot => {
+                        html += `
+          <div class="slot-card-wrapper">
+            <div class="card shadow-sm h-100">
+              <div class="card-body text-center">
+                <h5 class="card-title">${slot.startTime} - ${slot.endTime}</h5>
+                <button class="btn btn-sm btn-outline-primary copy-slot"
+                        data-start="${slot.startTime}"
+                        data-end="${slot.endTime}">
+                  Copy to Booking
+                </button>
+              </div>
+            </div>
+          </div>
+        `;
+
+
+                    });
+                    html += '</div>';
+
+                    if (data.length === 0) {
+                        html = '<div class="alert alert-warning text-center">No available tee times for this date.</div>';
+                    }
+
+                    $("#open-slots-result").html(html);
+
+                          $(".copy-slot").on("click", function () {
+            const start = $(this).data("start");
+            const end = $(this).data("end");
+            const selectedDate = $("#CheckDate").val(); // Grab date
+
+            $("#StartTime").val(start);
+            $("#EndTime").val(end);
+            $("#TimeSlot").val(`${start}|${end}`);
+            $("#Date").val(selectedDate); // Set the selected date in the booking tab
+            $("#book-tab").tab("show");
+        });
+
+                });
+            });
+        });
+    </script>
+
+    <style>
+        .flatpickr-calendar.arrowTop:before,
+        .flatpickr-calendar.arrowTop:after {
+            border: none !important;
+        }
+
+        .flatpickr-months .flatpickr-prev-month svg,
+        .flatpickr-months .flatpickr-next-month svg {
+            height: 14px;
+            width: 14px;
+            stroke: #333;
+        }
+
+        .flatpickr-calendar {
+            font-size: 14px;
+            z-index: 9999 !important;
+        }
+    </style>
+}
+
+
+
+
+

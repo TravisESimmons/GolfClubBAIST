@@ -1,0 +1,27 @@
+﻿@page
+@model GolfBAIST.Pages.IndexModel
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
+    var basePath = HttpContextAccessor.HttpContext?.Request.PathBase.Value ?? "";
+    ViewData["Title"] = "GolfBAIST - Home";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron text-center">
+    <div class="mb-4">
+        <img src="@basePath/images/golfbaist-logo.png" alt="GolfBAIST Logo" class="mb-3 logo-with-bg">
+    </div>
+    <h1 class="display-4">Welcome to Club BAIST!</h1>
+    <p class="lead">Manage your tee times with ease. Sign up or log in to get started.</p>
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <a class="btn btn-primary btn-lg" href="@basePath/Login" role="button">Sign In</a>
+        <a class="btn btn-success btn-lg" href="@basePath/SignUp" role="button">Sign Up</a>
+    }
+    else
+    {
+        <a class="btn btn-primary btn-lg" href="@basePath/BookingTeeTime" role="button">Book a Tee Time</a>
+        <a class="btn btn-success btn-lg" href="@basePath/MyTeeTimes" role="button">My Tee Times</a>
+    }
+</div>

@@ -1,0 +1,18 @@
+﻿@page
+@model GolfBAIST.Pages.ScoreSuccessModel
+@{
+    ViewData["Title"] = "Score Submitted!";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow p-4 text-center">
+        <h2 class="text-success mb-3">✅ Score Submitted!</h2>
+        <p class="lead">Thanks for entering your score. It’s now saved and part of your stats.</p>
+        <p>You can review or update your score from the <strong>My Tee Times</strong> page.</p>
+
+        <div class="mt-4">
+            <a href="/MyTeeTimes" class="btn btn-outline-primary">⬅ Back to My Tee Times</a>
+        </div>
+    </div>
+</div>

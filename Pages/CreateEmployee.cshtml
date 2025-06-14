@@ -1,0 +1,65 @@
+﻿@page
+@model GolfBAIST.Pages.Employees.CreateEmployeeModel
+@{
+    ViewData["Title"] = "Create Employee Account";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h2>Create New Employee Account</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+<form method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="NewUser.FirstName"></label>
+        <input asp-for="NewUser.FirstName" class="form-control" />
+        <span asp-validation-for="NewUser.FirstName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NewUser.LastName"></label>
+        <input asp-for="NewUser.LastName" class="form-control" />
+        <span asp-validation-for="NewUser.LastName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NewUser.Username"></label>
+        <input asp-for="NewUser.Username" class="form-control" />
+        <span asp-validation-for="NewUser.Username" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NewUser.Password"></label>
+        <input asp-for="NewUser.Password" class="form-control" type="password" />
+        <span asp-validation-for="NewUser.Password" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NewUser.Email"></label>
+        <input asp-for="NewUser.Email" class="form-control" type="email" />
+        <span asp-validation-for="NewUser.Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NewUser.Role"></label>
+        <select asp-for="NewUser.Role" class="form-control">
+            <option value="ShopClerk">Shop Clerk</option>
+            <option value="Committee">Membership Committee</option>
+            <option value="Admin">Admin</option>
+        </select>
+        <span asp-validation-for="NewUser.Role" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="NewUser.MemberID"></label>
+        <input asp-for="NewUser.MemberID" class="form-control" />
+        <span asp-validation-for="NewUser.MemberID" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create Employee</button>
+</form>

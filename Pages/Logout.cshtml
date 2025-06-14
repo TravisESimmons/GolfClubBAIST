@@ -1,0 +1,13 @@
+﻿@page
+@model GolfBAIST.Pages.LogoutModel
+@{
+    ViewData["Title"] = "Logout";
+}
+
+@if (TempData["LogoutMessage"] != null)
+{
+    <div class="alert alert-info text-center">@TempData["LogoutMessage"]</div>
+}
+
+
+<h2>Logging out...</h2>

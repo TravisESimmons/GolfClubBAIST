@@ -1,0 +1,200 @@
+﻿@page "{teeTimeId:int}"
+@model GolfBAIST.Pages.ModifyTeeTimeModel
+@{
+    ViewData["Title"] = "Modify Tee Time";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+    bool isEmployee = (Model.Role?.ToLower() == "admin" || Model.Role?.ToLower() == "shopclerk");
+}
+
+<div class="container mt-3">
+    <div class="d-flex justify-content-start mb-3">
+        @if (isEmployee)
+        {
+            <a asp-page="/EmployeePortal" asp-route-tab="manage" class="btn btn-secondary">← Back to Manage Reservations</a>
+        }
+        else
+        {
+            <a asp-page="/MyTeeTimes" class="btn btn-secondary">← Back to My Tee Times</a>
+        }
+    </div>
+</div>
+
+<div class="container mt-5 mb-5">
+    <h2 class="mb-4">Modify Tee Time</h2>
+
+    @if (!string.IsNullOrEmpty(Model.Message))
+    {
+        <div class="alert alert-info">@Model.Message</div>
+    }
+
+    @if (Model.TeeTime.Date < DateTime.Today)
+    {
+        <div class="alert alert-warning">This tee time is in the past and cannot be modified.</div>
+    }
+    else
+    {
+        <form method="post">
+            <input type="hidden" asp-for="TeeTime.TeeTimeID" />
+            <input type="hidden" asp-for="TeeTime.MemberID" />
+
+            <div class="card mb-4">
+                <div class="card-header">Current Reservation Summary</div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label>Booked By</label>
+                        <input class="form-control" value="@Model.BookedByName" disabled />
+                    </div>
+
+                    @if (Model.MemberNames != null && Model.MemberNames.Count > 1)
+                    {
+                        <div class="form-group">
+                            <label>Group Members</label>
+                            <ul class="list-group">
+                                @foreach (var entry in Model.MemberNames)
+                                {
+                                    if (entry.Key != Model.TeeTime.MemberID)
+                                    {
+                                        <li class="list-group-item">@entry.Value (ID: @entry.Key)</li>
+                                    }
+                                }
+                            </ul>
+                        </div>
+                    }
+
+                    <div class="form-group">
+                        <label>Current Time Slot</label>
+                        <input class="form-control" value="@Model.TeeTime.StartTime.ToString(@"hh\:mm") - @Model.TeeTime.EndTime.ToString(@"hh\:mm")" disabled />
+                    </div>
+
+                    <div class="form-group">
+                        <label>Phone</label>
+                        <input class="form-control" value="@Model.TeeTime.Phone" disabled />
+                    </div>
+
+                    @if (isEmployee)
+                    {
+                        <div class="form-group">
+                            <label>Tee Time ID</label>
+                            <input class="form-control" value="@Model.TeeTime.TeeTimeID" disabled />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Score ID</label>
+                            <input class="form-control" value="@Model.TeeTime.ScoreID" disabled />
+                        </div>
+
+                        <div class="form-group">
+                            <label>Cancellation Requested</label>
+                            <input class="form-control" value="@(Model.TeeTime.CancellationRequested ? "Yes" : "No")" disabled />
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="Date">Date</label>
+                <input type="text" id="Date" class="form-control datepicker" asp-for="TeeTime.Date" required />
+            </div>
+
+            <div class="form-group">
+                <label for="TimeSlot">Select Tee Time</label>
+                <select class="form-control" id="TimeSlot" required></select>
+            </div>
+
+            <input type="hidden" id="StartTime" name="TeeTime.StartTime" value="@Model.TeeTime.StartTime.ToString(@"hh\:mm")" />
+            <input type="hidden" id="EndTime" name="TeeTime.EndTime" value="@Model.TeeTime.EndTime.ToString(@"hh\:mm")" />
+
+            <div class="form-group">
+                <label for="Players">Number of Players</label>
+                <input type="number" class="form-control" id="Players" name="TeeTime.Players" value="@Model.TeeTime.Players" min="1" max="4" required />
+            </div>
+
+            <div id="additional-members" class="form-group"></div>
+
+            @if (isEmployee)
+            {
+                <div class="form-group">
+                    <label>Employee Name</label>
+                    <input class="form-control" value="@Model.TeeTime.EmployeeName" readonly />
+                </div>
+
+                <div class="form-group">
+                    <label>Carts</label>
+                    <input asp-for="TeeTime.Carts" type="number" min="0" class="form-control" />
+                </div>
+            }
+
+            <button type="submit" class="btn btn-primary mt-3">Update Tee Time</button>
+        </form>
+    }
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet" />
+
+    <script>
+        const initialStart = "@(Model.TeeTime?.StartTime.ToString("hh\\:mm") ?? "06:00")";
+        const initialEnd = "@(Model.TeeTime?.EndTime.ToString("hh\\:mm") ?? "06:08")";
+        const initialPlayers = Math.min(@Model.TeeTime.Players, 4);
+        const initialAdditional = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.TeeTime.AdditionalMemberIDs));
+
+        function formatTime(h, m) {
+            return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}`;
+        }
+
+        function populateTimeSlots() {
+            const $select = $("#TimeSlot").empty();
+            for (let h = 6; h < 20; h++) {
+                for (let m = 0; m < 60; m += 8) {
+                    let start = formatTime(h, m);
+                    let endM = m + 8;
+                    let endH = h + Math.floor(endM / 60);
+                    endM %= 60;
+                    let end = formatTime(endH, endM);
+                    let selected = (start === initialStart && end === initialEnd) ? "selected" : "";
+                    $select.append(`<option value="${start}|${end}" ${selected}>${start} - ${end}</option>`);
+                }
+            }
+            $select.trigger("change");
+        }
+
+        function updateTimeInputs() {
+            const [start, end] = $("#TimeSlot").val().split("|");
+            $("#StartTime").val(start);
+            $("#EndTime").val(end);
+        }
+
+        function renderAdditionalInputs(count) {
+            const container = $("#additional-members").empty();
+            for (let i = 1; i < count; i++) {
+                const memberId = initialAdditional[i - 1] ?? "";
+                container.append(`
+                    <div class="form-group">
+                        <label>Member ID for Player ${i + 1}</label>
+                        <input type="number" name="TeeTime.AdditionalMemberIDs[${i - 1}]" value="${memberId}" class="form-control" />
+                    </div>
+                `);
+            }
+        }
+
+        $(document).ready(function () {
+            populateTimeSlots();
+            updateTimeInputs();
+            renderAdditionalInputs(initialPlayers);
+
+            $("#TimeSlot").on("change", updateTimeInputs);
+
+            $("#Players").on("change", function () {
+                let count = Math.min(parseInt($(this).val()), 4);
+                $(this).val(count);
+                renderAdditionalInputs(count);
+            });
+
+            flatpickr("#Date", {
+                dateFormat: "Y-m-d",
+                defaultDate: "@Model.TeeTime.Date.ToString("yyyy-MM-dd")"
+            });
+        });
+    </script>
+}

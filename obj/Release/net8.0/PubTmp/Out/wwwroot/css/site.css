@@ -1,0 +1,346 @@
+﻿/* === Global Reset === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding-bottom: 140px;
+}
+
+/* === Layout Containers === */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.tab-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* === Navbar === */
+nav {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0;
+}
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        padding: 0;
+    }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+            nav ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 18px;
+            }
+
+                nav ul li a:hover {
+                    text-decoration: underline;
+                }
+
+/* === Forms === */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+    form .form-group {
+        margin-bottom: 1rem;
+    }
+
+    form label {
+        font-size: 1.1em;
+        margin-bottom: 8px;
+        display: block;
+    }
+
+    form input,
+    form select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    form button {
+        background-color: #28a745;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1.1em;
+        transition: background-color 0.2s ease-in-out;
+    }
+
+        form button:hover {
+            background-color: #218838;
+        }
+
+/* === Checkbox / Agreement Fix === */
+/* === Checkbox Fix (Inline & Properly Aligned) === */
+.form-check {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 12px;
+    padding: 0;
+    line-height: 1.5;
+    width: 100%;
+}
+
+.form-check-input {
+    margin-top: 0.25rem;
+    width: 1.1em;
+    height: 1.1em;
+    flex-shrink: 0;
+    accent-color: #007bff;
+    appearance: auto;
+}
+
+.form-check-label {
+    display: inline-block;
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+    flex-grow: 1;
+}
+
+
+
+/* === Table Buttons Fix === */
+.table td form {
+    background: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+    .table td .btn,
+    .table td form button {
+        font-size: 0.875rem;
+        padding: 4px 12px;
+        border-radius: 4px;
+        line-height: 1.2;
+        border: none;
+        margin: 0 4px 4px 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+    }
+
+.table td .btn-sm {
+    height: 32px;
+}
+
+/* === Manual Button Colors + Hover === */
+.btn-success {
+    background-color: #28a745 !important;
+    color: #fff !important;
+}
+
+    .btn-success:hover {
+        background-color: #218838 !important;
+    }
+
+.btn-danger {
+    background-color: #dc3545 !important;
+    color: #fff !important;
+}
+
+    .btn-danger:hover {
+        background-color: #c82333 !important;
+    }
+
+.btn-info {
+    background-color: #17a2b8 !important;
+    color: #fff !important;
+}
+
+    .btn-info:hover {
+        background-color: #138496 !important;
+    }
+
+.btn-primary {
+    background-color: #007bff !important;
+    color: #fff !important;
+}
+
+    .btn-primary:hover {
+        background-color: #0069d9 !important;
+    }
+
+/* === Cancel Button (Tee Time) === */
+.list-group-item button.btn-success {
+    background-color: #28a745;
+    color: white;
+    padding: 6px 16px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+    .list-group-item button.btn-success:hover {
+        background-color: #218838;
+    }
+
+/* === Approve / Deny Buttons (✓ ✕) === */
+.table td button.btn-sm {
+    font-size: 1.1rem;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+/* === Footer === */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 100;
+}
+
+/* === Scroll Fix === */
+.scorecard-scroll {
+    overflow-x: auto;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: #fff;
+}
+
+/* === Responsive Adjustments === */
+@media (max-width: 768px) {
+    nav ul {
+        justify-content: center;
+    }
+
+    .table td button.btn-sm {
+        font-size: 1rem;
+        width: 32px;
+        height: 32px;
+    }
+}
+
+/* === Action Columns === */
+.actions-cell,
+.action-buttons-cell {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 140px;
+}
+
+    .action-buttons-cell form,
+    .actions-cell form {
+        margin: 0;
+    }
+
+    .action-buttons-cell .btn-sm,
+    .actions-cell button.btn-sm {
+        font-size: 0.875rem;
+        padding: 6px 16px;
+        min-width: 72px;
+        height: 36px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        white-space: nowrap;
+        border-radius: 4px;
+        border: none;
+    }
+
+/* === Custom Buttons === */
+.view-button {
+    font-size: 0.875rem;
+    padding: 6px 16px;
+    min-width: 72px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #17a2b8;
+    color: #fff;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+    .view-button:hover {
+        background-color: #138496;
+    }
+
+.btn-mytee-view,
+.btn-mytee-edit,
+.btn-mytee-cancel {
+    font-size: 0.875rem;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    height: 36px;
+    transition: background-color 0.2s ease-in-out;
+    white-space: nowrap;
+}
+
+.btn-mytee-view {
+    background-color: #3498db;
+    color: white;
+}
+
+    .btn-mytee-view:hover {
+        background-color: #2980b9;
+    }
+
+.btn-mytee-edit {
+    background-color: #3498db;
+    color: white;
+}
+
+    .btn-mytee-edit:hover {
+        background-color: #2980b9;
+    }
+
+.btn-mytee-cancel {
+    background-color: #dc3545;
+    color: white;
+}
+
+    .btn-mytee-cancel:hover {
+        background-color: #c82333;
+    }

@@ -1,0 +1,81 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    var isLoggedIn = HttpContextAccessor.HttpContext?.User.Identity?.IsAuthenticated ?? false;
+    var role = isLoggedIn
+        ? HttpContextAccessor.HttpContext?.Session.GetString("Role") ?? "Guest"
+        : "Guest";
+    var basePath = HttpContextAccessor.HttpContext?.Request.PathBase.Value ?? "";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - GolfBAIST</title>
+
+    <link href="@basePath/css/site.css?v=@DateTime.Now.Ticks" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.20/css/intlTelInput.min.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg justify-content-between px-4">
+            <a class="navbar-brand d-flex align-items-center" href="@basePath/">
+                <img src="@basePath/images/gb-nav-logo.png" alt="GolfBAIST Logo" height="40" class="mr-2 logo-with-bg">
+                <span class="ml-1">GolfBAIST</span>
+            </a>
+
+            <ul class="navbar-nav d-flex flex-row">
+                @if (isLoggedIn)
+                {
+                    if (role == "Admin" || role == "ShopClerk")
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="@basePath/EmployeePortal">Employee Portal</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item"><a class="nav-link text-white" href="@basePath/BookingTeeTime">Booking</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="@basePath/StandingTeeTime">Standing</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="@basePath/MyTeeTimes">My Tee Times</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="@basePath/PlayerStats">My Stats</a></li>
+
+                        @if (role == "Committee")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="@basePath/EmployeePortal">Portal</a>
+                            </li>
+                        }
+                    }
+
+                    <li class="nav-item"><a class="nav-link text-white" href="@basePath/Logout">Logout</a></li>
+                }
+                else
+                {
+                    <li class="nav-item"><a class="nav-link text-white" href="@basePath/Login">Login</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="@basePath/SignUp">Sign Up</a></li>
+                }
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container mt-4">
+        @RenderBody()
+    </div>
+
+    <footer class="text-center mt-5">
+        <p>&copy; @DateTime.Now.Year - Golf Club BAIST</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

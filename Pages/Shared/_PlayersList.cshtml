@@ -1,0 +1,19 @@
+﻿@model List<GolfBAIST.Models.Member>
+
+@if (Model?.Any() == true)
+{
+    <h5>Players for Selected Tee Time</h5>
+    <ul class="list-group">
+        @foreach (var player in Model)
+        {
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>@player.FirstName @player.LastName (ID: @player.MemberID)</span>
+                <a class="btn btn-sm btn-secondary" href="/ViewScoreSheet?memberID=@player.MemberID&teeTimeID=@ViewData["SelectedTeeTimeID"]">View Scorecard</a>
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p class="text-muted">No players found.</p>
+}

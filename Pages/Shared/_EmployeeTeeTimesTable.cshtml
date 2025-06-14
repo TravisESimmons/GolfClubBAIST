@@ -1,0 +1,32 @@
+﻿@model List<GolfBAIST.Models.TeeTime>
+
+<table class="table table-bordered table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>Tee Time ID</th>
+            <th>Date</th>
+            <th>Start Time</th>
+            <th>End Time</th>
+            <th>Players</th>
+            <th>Scorecards</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var teeTime in Model)
+        {
+            <tr>
+                <td>@teeTime.TeeTimeID</td>
+                <td>@teeTime.Date.ToString("yyyy-MM-dd")</td>
+                <td>@teeTime.StartTime.ToString(@"hh\:mm")</td>
+                <td>@teeTime.EndTime.ToString(@"hh\:mm")</td>
+                <td>@teeTime.Players</td>
+                <td>
+                    <form method="post" asp-page-handler="ViewPlayers">
+                        <input type="hidden" name="teeTimeID" value="@teeTime.TeeTimeID" />
+                        <button type="submit" class="btn btn-sm btn-info">View Players</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
