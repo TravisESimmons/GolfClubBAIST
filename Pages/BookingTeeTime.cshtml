@@ -1,5 +1,89 @@
 ﻿@page
+
 @model GolfBAIST.Pages.BookingTeeTimeModel
+
+<style>
+    .open-slots-bg {
+        background: linear-gradient(120deg, #f8fafc 60%, #f1f5fb 100%);
+        border: 1px solid #e6eaf0;
+    }
+    .open-slots-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 32px 24px;
+        margin: 0 auto;
+        max-width: 1100px;
+    }
+    .slot-card-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+    }
+    .slot-card {
+        width: 100%;
+        min-width: 220px;
+        max-width: 320px;
+        margin: 0 auto;
+        border-radius: 18px;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 4px 24px rgba(44,62,80,0.10);
+        background: #fff;
+        transition: box-shadow 0.2s, transform 0.2s;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2.2rem 1.2rem 1.2rem 1.2rem;
+        position: relative;
+    }
+    .slot-card:hover {
+        box-shadow: 0 8px 32px rgba(44,62,80,0.18);
+        transform: translateY(-4px) scale(1.03);
+    }
+    .slot-card .card-title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: #1a237e;
+        margin-bottom: 1.2rem;
+        letter-spacing: 0.5px;
+    }
+    .copy-slot {
+        margin-top: 0.5rem;
+        width: 100%;
+        font-size: 1.08rem;
+        font-weight: 600;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(33,150,243,0.08);
+        padding: 0.7rem 0;
+    }
+    .copy-slot:active {
+        background: #1976d2;
+        color: #fff;
+    }
+    @@media (max-width: 700px) {
+        .open-slots-grid {
+            gap: 18px 8px;
+            max-width: 100%;
+        }
+        .slot-card {
+            min-width: 0;
+            max-width: 100%;
+        }
+    }
+    .flatpickr-calendar.arrowTop:before,
+    .flatpickr-calendar.arrowTop:after {
+        border: none !important;
+    }
+    .flatpickr-months .flatpickr-prev-month svg,
+    .flatpickr-months .flatpickr-next-month svg {
+        height: 14px;
+        width: 14px;
+        stroke: #333;
+    }
+    .flatpickr-calendar {
+        font-size: 14px;
+        z-index: 9999 !important;
+    }
+</style>
 
 @inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
 @{
@@ -83,17 +167,21 @@
 
                 <!-- VIEW OPEN TIME SLOTS -->
                 <div class="tab-pane fade" id="open" role="tabpanel">
-                    <div class="form-group mt-4">
-                        <label for="CheckDate">Select Date</label>
-                        <input type="text" id="CheckDate" class="form-control datepicker" />
-                    </div>
-                    <div class="open-slots-scroll mt-3">
-                        <div id="open-slots-result"></div>
+                    <div class="open-slots-bg p-4 rounded shadow-sm mt-4">
+                        <div class="d-flex flex-column flex-md-row align-items-center justify-content-between mb-3">
+                            <h4 class="mb-3 mb-md-0 font-weight-bold text-primary" style="letter-spacing:0.5px;">Available Tee Times</h4>
+                            <div class="form-group mb-0 ml-md-3" style="min-width:220px;">
+                                <label for="CheckDate" class="mb-1">Select Date</label>
+                                <input type="text" id="CheckDate" class="form-control datepicker" />
+                            </div>
+                        </div>
+                        <div id="open-slots-result" class="open-slots-grid mt-4"></div>
                     </div>
 
                 </div>
 
                 <!-- JOIN EXISTING TEE TIME -->
+
                 <div class="tab-pane fade" id="join" role="tabpanel">
                     @if (Model.AvailableJoinableTeeTimes.Count > 0)
                     {
@@ -131,28 +219,26 @@
                         <p class="mt-4 text-muted text-center">No tee times currently available for joining.</p>
                     }
                 </div>
+            </div> <!-- Close .tab-content -->
+        </div> <!-- Close .col-12.col-lg-10.col-xl-10 -->
+    </div> <!-- Close .row -->
+</div> <!-- Close .container -->
 
-            </div>
-        </div>
-    </div>
-</div>
+<!-- Commit date update: whitespace change for git history correction -->
 
 @section Scripts {
     <link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-
     <script>
         const basePath = "@basePath";
         function formatTime(h, m) {
             return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}`;
         }
-
         function populateTimeSlots() {
             const startHour = 6;
             const endHour = 20;
             const interval = 8;
             const $select = $("#TimeSlot").empty();
-
             for (let h = startHour; h < endHour; h++) {
                 for (let m = 0; m < 60; m += interval) {
                     let start = formatTime(h, m);
@@ -160,10 +246,8 @@
                     $select.append(`<option value="${start}|${end}">${start} - ${end}</option>`);
                 }
             }
-
             $select.trigger("change");
         }
-
         function initFlatpickr(selector) {
             flatpickr(selector, {
                 dateFormat: "Y-m-d",
@@ -171,25 +255,21 @@
                 allowInput: true
             });
         }
-
         $(document).ready(function () {
             populateTimeSlots();
             initFlatpickr("#Date");
             initFlatpickr("#CheckDate");
-
             $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
                 const target = $(e.target).attr("href");
                 if (target === "#open") {
                     $("#CheckDate").flatpickr().open();
                 }
             });
-
             $("#TimeSlot").on("change", function () {
                 const [start, end] = $(this).val().split("|");
                 $("#StartTime").val(start);
                 $("#EndTime").val(end);
             });
-
             $("#Players").on("change", function () {
                 const count = parseInt($(this).val());
                 const container = $("#additional-members").empty();
@@ -202,74 +282,46 @@
                     `);
                 }
             });
-
             $("#CheckDate").on("change", function () {
                 const selectedDate = $(this).val();
-
                 $.get(`${basePath}/api/teetimes/available?date=${selectedDate}`, function (data) {
-                    let html = '<div class="row">';
-                    data.forEach(slot => {
-                        html += `
-          <div class="slot-card-wrapper">
-            <div class="card shadow-sm h-100">
-              <div class="card-body text-center">
-                <h5 class="card-title">${slot.startTime} - ${slot.endTime}</h5>
-                <button class="btn btn-sm btn-outline-primary copy-slot"
-                        data-start="${slot.startTime}"
-                        data-end="${slot.endTime}">
-                  Copy to Booking
-                </button>
-              </div>
-            </div>
-          </div>
-        `;
-
-
-                    });
-                    html += '</div>';
-
+                    let html = '';
                     if (data.length === 0) {
-                        html = '<div class="alert alert-warning text-center">No available tee times for this date.</div>';
+                        html = '<div class="alert alert-warning text-center w-100">No available tee times for this date.</div>';
+                    } else {
+                        data.forEach(slot => {
+                            html += `
+                                <div class="slot-card-wrapper">
+                                    <div class="slot-card">
+                                        <div class="card-title">${slot.startTime} - ${slot.endTime}</div>
+                                        <button class="btn btn-primary copy-slot"
+                                                data-start="${slot.startTime}"
+                                                data-end="${slot.endTime}">
+                                            Copy to Booking
+                                        </button>
+                                    </div>
+                                </div>
+                            `;
+                        });
                     }
-
                     $("#open-slots-result").html(html);
-
-                          $(".copy-slot").on("click", function () {
-            const start = $(this).data("start");
-            const end = $(this).data("end");
-            const selectedDate = $("#CheckDate").val(); // Grab date
-
-            $("#StartTime").val(start);
-            $("#EndTime").val(end);
-            $("#TimeSlot").val(`${start}|${end}`);
-            $("#Date").val(selectedDate); // Set the selected date in the booking tab
-            $("#book-tab").tab("show");
-        });
-
+                    $(".copy-slot").on("click", function () {
+                        const start = $(this).data("start");
+                        const end = $(this).data("end");
+                        const selectedDate = $("#CheckDate").val(); // Grab date
+                        $("#StartTime").val(start);
+                        $("#EndTime").val(end);
+                        $("#TimeSlot").val(`${start}|${end}`);
+                        $("#Date").val(selectedDate); // Set the selected date in the booking tab
+                        $("#book-tab").tab("show");
+                    });
                 });
             });
         });
     </script>
-
-    <style>
-        .flatpickr-calendar.arrowTop:before,
-        .flatpickr-calendar.arrowTop:after {
-            border: none !important;
-        }
-
-        .flatpickr-months .flatpickr-prev-month svg,
-        .flatpickr-months .flatpickr-next-month svg {
-            height: 14px;
-            width: 14px;
-            stroke: #333;
-        }
-
-        .flatpickr-calendar {
-            font-size: 14px;
-            z-index: 9999 !important;
-        }
-    </style>
 }
+
+
 
 
 
