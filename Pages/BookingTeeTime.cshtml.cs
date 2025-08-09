@@ -20,12 +20,16 @@ namespace GolfBAIST.Pages
             _teeTimesService = teeTimesService;
         }
 
+
         [BindProperty]
-        public TeeTime TeeTime { get; set; }
+        public TeeTime TeeTime { get; set; } = new TeeTime();
 
         public List<TeeTime> AvailableJoinableTeeTimes { get; set; } = new List<TeeTime>();
 
-        public string Message { get; set; }
+        public string Message { get; set; } = string.Empty;
+
+        // Maps TeeTimeID to list of players (Member objects)
+        public Dictionary<int, List<Member>> JoinableTeeTimePlayers { get; set; } = new();
 
         public void OnGet()
         {
@@ -40,15 +44,21 @@ namespace GolfBAIST.Pages
                 var member = _teeTimesService.GetMemberById(memberId.Value);
                 if (member != null)
                 {
-                    TeeTime.Phone = FormatPhoneNumber(member.Phone); 
+                    TeeTime.Phone = FormatPhoneNumber(member.Phone);
                 }
 
                 AvailableJoinableTeeTimes = _teeTimesService.GetJoinableTeeTimes();
+                JoinableTeeTimePlayers = new();
+                foreach (var teeTime in AvailableJoinableTeeTimes)
+                {
+                    JoinableTeeTimePlayers[teeTime.TeeTimeID] = _teeTimesService.GetPlayersByTeeTimeID(teeTime.TeeTimeID);
+                }
             }
             else
             {
                 Message = "You must log in to book a tee time.";
                 AvailableJoinableTeeTimes = new List<TeeTime>();
+                JoinableTeeTimePlayers = new();
             }
         }
 
@@ -80,6 +90,11 @@ namespace GolfBAIST.Pages
             }
 
             AvailableJoinableTeeTimes = _teeTimesService.GetJoinableTeeTimes();
+            JoinableTeeTimePlayers = new();
+            foreach (var teeTime in AvailableJoinableTeeTimes)
+            {
+                JoinableTeeTimePlayers[teeTime.TeeTimeID] = _teeTimesService.GetPlayersByTeeTimeID(teeTime.TeeTimeID);
+            }
             return Page();
         }
 

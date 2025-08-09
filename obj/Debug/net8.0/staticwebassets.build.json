@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Aa2ciq4P4jE5+gsJJHmgMjT7nCuLsgj1VKXQf9HyW0U=",
+  "Hash": "+OXVIAsLjHRX1/WqCfdf8d8o/6bfgL2o+2AxyIC5cdY=",
   "Source": "GolfBAIST",
   "BasePath": "_content/GolfBAIST",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1fluxkci75",
-      "Integrity": "E2cH32F1d2ySJgs9peDTFmZiX4PNWRkQOngJGZAs7Rk=",
+      "Fingerprint": "qs4z99p5eg",
+      "Integrity": "CkAdj3sqrAQqsTBrZJsxKyMfrjx0sI9SaZBnDeTU7GM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -330,51 +330,6 @@
       ]
     },
     {
-      "Route": "css/site.1fluxkci75.css",
-      "AssetFile": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "47146"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"E2cH32F1d2ySJgs9peDTFmZiX4PNWRkQOngJGZAs7Rk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 07 Aug 2025 06:40:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1fluxkci75"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-E2cH32F1d2ySJgs9peDTFmZiX4PNWRkQOngJGZAs7Rk="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -385,7 +340,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "47146"
+          "Value": "47170"
         },
         {
           "Name": "Content-Type",
@@ -393,11 +348,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"E2cH32F1d2ySJgs9peDTFmZiX4PNWRkQOngJGZAs7Rk=\""
+          "Value": "\"CkAdj3sqrAQqsTBrZJsxKyMfrjx0sI9SaZBnDeTU7GM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 07 Aug 2025 06:40:48 GMT"
+          "Value": "Fri, 08 Aug 2025 06:09:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -407,7 +362,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-E2cH32F1d2ySJgs9peDTFmZiX4PNWRkQOngJGZAs7Rk="
+          "Value": "sha256-CkAdj3sqrAQqsTBrZJsxKyMfrjx0sI9SaZBnDeTU7GM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.qs4z99p5eg.css",
+      "AssetFile": "C:\\Users\\Travis\\OneDrive\\Desktop\\GolfBAIST-WebApp-main\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47170"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CkAdj3sqrAQqsTBrZJsxKyMfrjx0sI9SaZBnDeTU7GM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 08 Aug 2025 06:09:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qs4z99p5eg"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CkAdj3sqrAQqsTBrZJsxKyMfrjx0sI9SaZBnDeTU7GM="
         }
       ]
     },

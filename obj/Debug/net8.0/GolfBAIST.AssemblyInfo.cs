@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GolfBAIST")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6dcb8426f173dad25940ea01561ce07f4e61d40")]
 [assembly: System.Reflection.AssemblyProductAttribute("GolfBAIST")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GolfBAIST")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

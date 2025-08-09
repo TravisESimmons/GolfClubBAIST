@@ -67,8 +67,19 @@
         @RenderBody()
     </div>
 
+
     <footer class="text-center mt-5">
-        <p>&copy; @DateTime.Now.Year - Golf Club BAIST</p>
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 8px;">
+            <div style="font-size: 1.1rem; font-weight: 600; letter-spacing: 1px;">
+                &copy; @DateTime.Now.Year - Golf Club BAIST
+            </div>
+            <div style="font-size: 0.95rem; color: #b0eaff;">
+                Powered by <a href="https://www.nait.ca/" target="_blank" style="color: #28a745; font-weight: 600; text-decoration: underline;">NAIT</a>
+            </div>
+            <div style="font-size: 0.9rem; color: #b0b0b0;">
+                <span>Created by Travis Simmons</span>
+            </div>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>

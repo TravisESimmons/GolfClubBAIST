@@ -3,9 +3,107 @@
 @model GolfBAIST.Pages.BookingTeeTimeModel
 
 <style>
+    /* Nuke any border or pseudo-element above the Join button cell */
+    .table-bordered > tbody > tr > td.join-td,
+    .table-bordered > tbody > tr > td.join-td::before,
+    .table-bordered > tbody > tr > td.join-td::after,
+    .table-bordered > tbody > tr > td.join-td *,
+    .table-bordered > tbody > tr > td.join-td *::before,
+    .table-bordered > tbody > tr > td.join-td *::after {
+        border-top: none !important;
+        border: none !important;
+        box-shadow: none !important;
+        background: transparent !important;
+        background-image: none !important;
+        outline: none !important;
+        color-adjust: exact !important;
+    }
+    .table-bordered > tbody > tr > td.join-td {
+        position: relative;
+        z-index: 10;
+    }
+    .table-bordered > tbody > tr > td.join-td hr,
+    .table-bordered > tbody > tr > td.join-td::before,
+    .table-bordered > tbody > tr > td.join-td::after {
+        display: none !important;
+        border: none !important;
+        background: none !important;
+    }
+    .join-td {
+        padding: 0.5rem;
+        text-align: center;
+        vertical-align: middle;
+        border: none !important;
+        background: transparent !important;
+    }
+    .compact-form {
+        margin-bottom: 0;
+        padding: 0;
+        border: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .join-td .btn-outline-success {
+        border: none !important;
+        border-top: none !important;
+        border-bottom: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        color: #198754 !important;
+        background: #fff !important;
+        background-image: none !important;
+        position: relative;
+        z-index: 2;
+    }
+    .join-td .btn-outline-success:hover, .join-td .btn-outline-success:focus {
+        background: #e6f4ea !important;
+        border: none !important;
+        border-top: none !important;
+        border-bottom: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        color: #145c32 !important;
+    }
+    /* Extra specificity to nuke any border/line above the Join button */
+    td.join-td, td.join-td * {
+        border: none !important;
+        border-top: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+        background-image: none !important;
+    }
+    /* Remove top border from table row/cell if present */
+    .table-bordered > tbody > tr > td.join-td {
+        border-top: none !important;
+    }
     .open-slots-bg {
         background: linear-gradient(120deg, #f8fafc 60%, #f1f5fb 100%);
         border: 1px solid #e6eaf0;
+    }
+    /* Fix for green line above Join button in join table */
+    .compact-form {
+        margin-bottom: 0;
+        padding: 0;
+        border: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
+    }
+    td > .compact-form {
+        border: none !important;
+        background: transparent !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+    }
+    td[style] {
+        border: none !important;
+        background: transparent !important;
     }
     .open-slots-grid {
         display: grid;
@@ -191,6 +289,7 @@
                                     <th>Date</th>
                                     <th>Start</th>
                                     <th>End</th>
+                                    <th>Booked By</th>
                                     <th>Players</th>
                                     <th>Join</th>
                                 </tr>
@@ -198,15 +297,32 @@
                             <tbody>
                                 @foreach (var t in Model.AvailableJoinableTeeTimes)
                                 {
+                                    var players = Model.JoinableTeeTimePlayers.ContainsKey(t.TeeTimeID) ? Model.JoinableTeeTimePlayers[t.TeeTimeID] : new List<GolfBAIST.Models.Member>();
+                                    var bookedBy = players.FirstOrDefault(p => p.MemberID == t.MemberID);
                                     <tr>
                                         <td>@t.Date.ToString("yyyy-MM-dd")</td>
                                         <td>@t.StartTime</td>
                                         <td>@t.EndTime</td>
-                                        <td>@t.Players</td>
-                                        <td style="padding: 0.5rem; text-align: center; vertical-align: middle;">
+                                        <td>@(bookedBy != null ? ($"{bookedBy.FirstName} {bookedBy.LastName} (ID: {bookedBy.MemberID})") : $"Member #{t.MemberID}")</td>
+                                        <td>
+                                            @if (players.Count > 0)
+                                            {
+                                                <ul class="list-unstyled mb-0">
+                                                    @foreach (var p in players)
+                                                    {
+                                                        <li>@p.FirstName @p.LastName (ID: @p.MemberID)</li>
+                                                    }
+                                                </ul>
+                                            }
+                                            else
+                                            {
+                                                <span class="text-muted">No players found</span>
+                                            }
+                                        </td>
+                                        <td class="join-td">
                                             <form method="post" asp-page-handler="Join" class="compact-form">
                                                 <input type="hidden" name="teeTimeId" value="@t.TeeTimeID" />
-                                                <button type="submit" class="btn btn-outline-success btn-sm px-3 py-1">Join</button>
+                                                <button type="submit" class="btn btn-success btn-sm px-3 py-1" style="background-color:#198754 !important;color:#fff !important;border:none !important;box-shadow:none !important;outline:none !important;">Join</button>
                                             </form>
                                         </td>
                                     </tr>

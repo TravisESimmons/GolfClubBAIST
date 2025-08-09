@@ -1063,7 +1063,7 @@ div[id="standing"] .teetime-card,
     padding: 20px !important;
     border-radius: 8px !important;
     margin: 20px 0 !important;
-    border-top: 3px solid #28a745 !important;
+    /* border-top: 3px solid #28a745 !important; */
 }
 
 .d-flex.justify-content-between.align-items-center .btn {
@@ -1120,7 +1120,7 @@ div[id="standing"] .teetime-card,
     padding: 20px;
     background: #f8f9fa;
     border-radius: 8px;
-    border-top: 3px solid #28a745;
+    /* border-top: 3px solid #28a745; */
 }
 
 .mytee-pagination-container .d-flex {
@@ -1256,7 +1256,7 @@ div[id="standing"] .teetime-card,
 }
 
 .list-group-item:first-child {
-    border-top: 3px solid #28a745;
+    /* border-top: 3px solid #28a745; */
 }
 
 /* === Alert Enhancements === */
@@ -1321,7 +1321,7 @@ footer {
     bottom: 0;
     z-index: 9999; /* Dramatically increased from 100 to stay above all content */
     box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.15);
-    border-top: 3px solid #28a745;
+    /* border-top: 3px solid #28a745; */
     font-weight: 500;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
