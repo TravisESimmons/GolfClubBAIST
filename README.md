@@ -33,7 +33,7 @@ The application uses Entity Framework Core for ORM, with all business logic in C
 3. Build and run the project with `dotnet run`
 
 ## About
-This project was originally developed as a school project (2024–2025) and migrated to this public repository in June 2025. All code and features have been modernized for public and professional use.
+This project was originally developed as a school project (2024) and migrated to this public repository in June 2025. All code and features have been modernized for public and professional use.
 
 ---
 
